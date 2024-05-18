@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis Web App</title>
+</head>
+<body>
+    <h1>Welcome to the Data Analysis Web App</h1>
+    <p>Please enter the data below, and the system will analyze it and display the results on a map.</p>
+    
+    <!-- Form for data input -->
+    <form id="dataForm" action="/predict" method="post">
+        <!-- Add form fields for each feature the model requires -->
+        <input type="text" name="feature1" placeholder="Feature 1" required>
+        <input type="text" name="feature2" placeholder="Feature 2" required>
+        <!-- Add more input fields as needed -->
+        <button type="submit">Analyze</button>
+    </form>
+    
+    <!-- Div to display the map -->
+    <div id="map" style="height: 400px;"></div>
+    
+    <!-- Script to handle the form submission and display the map -->
+    <script>
+        document.getElementById('dataForm').onsubmit = function(event) {
+            event.preventDefault();
+            var formData = new FormData(this);
+            
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(html => {
+                // Display the map returned from the server
+                document.getElementById('map').innerHTML = html;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        };
+    </script>
+</body>
+</html>
