@@ -1,0 +1,1011 @@
+index,include,Column Names
+0,1,Geographic Area Name
+1,1,Geography
+2,1,Estimate!!SEX AND AGE!!Total population
+3,2,Percent!!SEX AND AGE!!Total population
+4,,Estimate!!SEX AND AGE!!Male
+5,2,Percent!!SEX AND AGE!!Male
+6,,Estimate!!SEX AND AGE!!Female
+7,2,Percent!!SEX AND AGE!!Female
+8,,Estimate!!SEX AND AGE!!Under 5 years
+9,2,Percent!!SEX AND AGE!!Under 5 years
+10,,Estimate!!SEX AND AGE!!5 to 9 years
+11,2,Percent!!SEX AND AGE!!5 to 9 years
+12,,Estimate!!SEX AND AGE!!10 to 14 years
+13,2,Percent!!SEX AND AGE!!10 to 14 years
+14,,Estimate!!SEX AND AGE!!15 to 19 years
+15,2,Percent!!SEX AND AGE!!15 to 19 years
+16,,Estimate!!SEX AND AGE!!20 to 24 years
+17,2,Percent!!SEX AND AGE!!20 to 24 years
+18,,Estimate!!SEX AND AGE!!25 to 34 years
+19,2,Percent!!SEX AND AGE!!25 to 34 years
+20,,Estimate!!SEX AND AGE!!35 to 44 years
+21,2,Percent!!SEX AND AGE!!35 to 44 years
+22,,Estimate!!SEX AND AGE!!45 to 54 years
+23,2,Percent!!SEX AND AGE!!45 to 54 years
+24,,Estimate!!SEX AND AGE!!55 to 59 years
+25,2,Percent!!SEX AND AGE!!55 to 59 years
+26,,Estimate!!SEX AND AGE!!60 to 64 years
+27,2,Percent!!SEX AND AGE!!60 to 64 years
+28,,Estimate!!SEX AND AGE!!65 to 74 years
+29,2,Percent!!SEX AND AGE!!65 to 74 years
+30,,Estimate!!SEX AND AGE!!75 to 84 years
+31,2,Percent!!SEX AND AGE!!75 to 84 years
+32,,Estimate!!SEX AND AGE!!85 years and over
+33,2,Percent!!SEX AND AGE!!85 years and over
+34,1,Estimate!!SEX AND AGE!!Median age (years)
+35,2,Percent!!SEX AND AGE!!Median age (years)
+37,2,Percent!!SEX AND AGE!!18 years and over
+39,2,Percent!!SEX AND AGE!!21 years and over
+41,2,Percent!!SEX AND AGE!!62 years and over
+43,2,Percent!!SEX AND AGE!!65 years and over
+45,2,Percent!!SEX AND AGE!!18 years and over
+47,2,Percent!!SEX AND AGE!!Male
+49,2,Percent!!SEX AND AGE!!Female
+51,2,Percent!!SEX AND AGE!!65 years and over
+53,2,Percent!!SEX AND AGE!!Male
+55,2,Percent!!SEX AND AGE!!Female
+56,1,Estimate!!RACE!!Total population
+57,2,Percent!!RACE!!Total population
+58,,Estimate!!RACE!!One race
+59,2,Percent!!RACE!!One race
+60,,Estimate!!RACE!!Two or more races
+61,2,Percent!!RACE!!Two or more races
+62,,Estimate!!RACE!!One race
+63,2,Percent!!RACE!!One race
+64,,Estimate!!RACE!!One race!!White
+65,2,Percent!!RACE!!One race!!White
+66,,Estimate!!RACE!!One race!!Black or African American
+67,2,Percent!!RACE!!One race!!Black or African American
+68,,Estimate!!RACE!!One race!!American Indian and Alaska Native
+69,2,Percent!!RACE!!One race!!American Indian and Alaska Native
+70,,Estimate!!RACE!!One race!!American Indian and Alaska Native!!Cherokee tribal grouping
+71,2,Percent!!RACE!!One race!!American Indian and Alaska Native!!Cherokee tribal grouping
+72,,Estimate!!RACE!!One race!!American Indian and Alaska Native!!Chippewa tribal grouping
+73,2,Percent!!RACE!!One race!!American Indian and Alaska Native!!Chippewa tribal grouping
+74,,Estimate!!RACE!!One race!!American Indian and Alaska Native!!Navajo tribal grouping
+75,2,Percent!!RACE!!One race!!American Indian and Alaska Native!!Navajo tribal grouping
+76,,Estimate!!RACE!!One race!!American Indian and Alaska Native!!Sioux tribal grouping
+77,2,Percent!!RACE!!One race!!American Indian and Alaska Native!!Sioux tribal grouping
+78,,Estimate!!RACE!!One race!!Asian
+79,2,Percent!!RACE!!One race!!Asian
+80,,Estimate!!RACE!!One race!!Asian!!Asian Indian
+81,2,Percent!!RACE!!One race!!Asian!!Asian Indian
+82,,Estimate!!RACE!!One race!!Asian!!Chinese
+83,2,Percent!!RACE!!One race!!Asian!!Chinese
+84,,Estimate!!RACE!!One race!!Asian!!Filipino
+85,2,Percent!!RACE!!One race!!Asian!!Filipino
+86,,Estimate!!RACE!!One race!!Asian!!Japanese
+87,2,Percent!!RACE!!One race!!Asian!!Japanese
+88,,Estimate!!RACE!!One race!!Asian!!Korean
+89,2,Percent!!RACE!!One race!!Asian!!Korean
+90,,Estimate!!RACE!!One race!!Asian!!Vietnamese
+91,2,Percent!!RACE!!One race!!Asian!!Vietnamese
+92,,Estimate!!RACE!!One race!!Asian!!Other Asian
+93,2,Percent!!RACE!!One race!!Asian!!Other Asian
+94,,Estimate!!RACE!!One race!!Native Hawaiian and Other Pacific Islander
+95,2,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander
+96,,Estimate!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian
+97,2,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian
+98,,Estimate!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro
+99,2,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro
+100,,Estimate!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan
+101,2,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan
+102,,Estimate!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander
+103,2,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander
+104,,Estimate!!RACE!!One race!!Some other race
+105,2,Percent!!RACE!!One race!!Some other race
+107,2,Percent!!RACE!!Two or more races
+108,,Estimate!!RACE!!Two or more races!!White and Black or African American
+109,2,Percent!!RACE!!Two or more races!!White and Black or African American
+110,,Estimate!!RACE!!Two or more races!!White and American Indian and Alaska Native
+111,2,Percent!!RACE!!Two or more races!!White and American Indian and Alaska Native
+112,,Estimate!!RACE!!Two or more races!!White and Asian
+113,2,Percent!!RACE!!Two or more races!!White and Asian
+114,2,Percent!!RACE!!Two or more races!!Black or African American and American Indian and Alaska Native
+115,,Estimate!!RACE!!Two or more races!!Black or African American and American Indian and Alaska Native
+116,,Estimate!!RACE!!Race alone or in combination with one or more other races!!Total population
+117,2,Percent!!RACE!!Race alone or in combination with one or more other races!!Total population
+118,,Estimate!!RACE!!White
+119,2,Percent!!RACE!!White
+120,,Estimate!!RACE!!Black or African American
+121,2,Percent!!RACE!!Black or African American
+122,,Estimate!!RACE!!American Indian and Alaska Native
+123,2,Percent!!RACE!!American Indian and Alaska Native
+124,,Estimate!!RACE!!Asian
+125,2,Percent!!RACE!!Asian
+126,,Estimate!!RACE!!Native Hawaiian and Other Pacific Islander
+127,2,Percent!!RACE!!Native Hawaiian and Other Pacific Islander
+128,,Estimate!!RACE!!Some other race
+129,2,Percent!!RACE!!Some other race
+130,,Estimate!!HISPANIC OR LATINO AND RACE!!Total population
+131,2,Percent!!HISPANIC OR LATINO AND RACE!!Total population
+132,,Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)
+133,2,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)
+134,,Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Mexican
+135,2,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Mexican
+136,,Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Puerto Rican
+137,2,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Puerto Rican
+138,,Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Cuban
+139,2,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Cuban
+140,,Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Other Hispanic or Latino
+141,2,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Other Hispanic or Latino
+142,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino
+143,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino
+144,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!White alone
+145,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!White alone
+146,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Black or African American alone
+147,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Black or African American alone
+148,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!American Indian and Alaska Native alone
+149,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!American Indian and Alaska Native alone
+150,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Asian alone
+151,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Asian alone
+152,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone
+153,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone
+154,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Some other race alone
+155,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Some other race alone
+156,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races
+157,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races
+158,,Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races!!Two races including Some other race
+159,2,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races!!Two races including Some other race
+160,,"Estimate!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races!!Two races excluding Some other race, and Three or more races"
+161,2,"Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races!!Two races excluding Some other race, and Three or more races"
+162,1,Estimate!!Total housing units
+163,2,Percent!!Total housing units
+164,1,state
+165,1,county
+166,1,tract
+167,2,Percent!!LANGUAGE SPOKEN AT HOME!!English only
+168,,Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English
+169,2,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English
+170,,"Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Speak English less than ""very well"""
+171,2,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Speak English less than ""very well"""
+172,,Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Spanish
+173,2,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Spanish
+174,,"Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Spanish!!Speak English less than ""very well"""
+175,2,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Spanish!!Speak English less than ""very well"""
+176,,Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other Indo-European languages
+177,2,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other Indo-European languages
+178,,"Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other Indo-European languages!!Speak English less than ""very well"""
+179,2,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other Indo-European languages!!Speak English less than ""very well"""
+180,,Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Asian and Pacific Islander languages
+181,2,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Asian and Pacific Islander languages
+182,,"Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Asian and Pacific Islander languages!!Speak English less than ""very well"""
+183,2,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Asian and Pacific Islander languages!!Speak English less than ""very well"""
+184,,Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other languages
+185,2,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other languages
+186,,"Estimate!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other languages!!Speak English less than ""very well"""
+187,2,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other languages!!Speak English less than ""very well"""
+188,,Estimate!!ANCESTRY!!Total population
+189,,Percent!!ANCESTRY!!Total population
+190,,Estimate!!ANCESTRY!!American
+191,,Percent!!ANCESTRY!!American
+192,,Estimate!!ANCESTRY!!Arab
+193,,Percent!!ANCESTRY!!Arab
+194,,Estimate!!ANCESTRY!!Czech
+195,,Percent!!ANCESTRY!!Czech
+196,,Estimate!!ANCESTRY!!Danish
+197,,Percent!!ANCESTRY!!Danish
+198,,Estimate!!ANCESTRY!!Dutch
+199,,Percent!!ANCESTRY!!Dutch
+200,,Estimate!!ANCESTRY!!English
+201,,Percent!!ANCESTRY!!English
+202,,Estimate!!ANCESTRY!!French (except Basque)
+203,,Percent!!ANCESTRY!!French (except Basque)
+204,,Estimate!!ANCESTRY!!French Canadian
+205,,Percent!!ANCESTRY!!French Canadian
+206,,Estimate!!ANCESTRY!!German
+207,,Percent!!ANCESTRY!!German
+208,,Estimate!!ANCESTRY!!Greek
+209,,Percent!!ANCESTRY!!Greek
+210,,Estimate!!ANCESTRY!!Hungarian
+211,,Percent!!ANCESTRY!!Hungarian
+212,,Estimate!!ANCESTRY!!Irish
+213,,Percent!!ANCESTRY!!Irish
+214,,Estimate!!ANCESTRY!!Italian
+215,,Percent!!ANCESTRY!!Italian
+216,,Estimate!!ANCESTRY!!Lithuanian
+217,,Percent!!ANCESTRY!!Lithuanian
+218,,Estimate!!ANCESTRY!!Norwegian
+219,,Percent!!ANCESTRY!!Norwegian
+220,,Estimate!!ANCESTRY!!Polish
+221,,Percent!!ANCESTRY!!Polish
+222,,Estimate!!ANCESTRY!!Portuguese
+223,,Percent!!ANCESTRY!!Portuguese
+224,,Estimate!!ANCESTRY!!Russian
+225,,Percent!!ANCESTRY!!Russian
+226,,Estimate!!ANCESTRY!!Scotch-Irish
+227,,Percent!!ANCESTRY!!Scotch-Irish
+228,,Estimate!!ANCESTRY!!Scottish
+229,,Percent!!ANCESTRY!!Scottish
+230,,Estimate!!ANCESTRY!!Slovak
+231,,Percent!!ANCESTRY!!Slovak
+232,,Estimate!!ANCESTRY!!Subsaharan African
+233,,Percent!!ANCESTRY!!Subsaharan African
+234,,Estimate!!ANCESTRY!!Swedish
+235,,Percent!!ANCESTRY!!Swedish
+236,,Estimate!!ANCESTRY!!Swiss
+237,,Percent!!ANCESTRY!!Swiss
+238,,Estimate!!ANCESTRY!!Ukrainian
+239,,Percent!!ANCESTRY!!Ukrainian
+240,,Estimate!!ANCESTRY!!Welsh
+241,,Percent!!ANCESTRY!!Welsh
+242,,Estimate!!ANCESTRY!!West Indian (excluding Hispanic origin groups)
+243,,Percent!!ANCESTRY!!West Indian (excluding Hispanic origin groups)
+244,1,Estimate!!HOUSEHOLDS BY TYPE!!Total households
+245,2,Percent!!HOUSEHOLDS BY TYPE!!Total households
+246,,Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)
+247,2,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)
+248,,Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!With own children under 18 years
+249,2,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!With own children under 18 years
+250,,Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!Married-couple family
+251,2,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Married-couple family
+252,,Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!Married-couple family!!With own children under 18 years
+253,2,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Married-couple family!!With own children under 18 years
+254,,"Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!Male householder, no wife present, family"
+255,2,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Male householder, no wife present, family"
+256,,"Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!Male householder, no wife present, family!!With own children under 18 years"
+257,2,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Male householder, no wife present, family!!With own children under 18 years"
+258,,"Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!Female householder, no husband present, family"
+259,2,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Female householder, no husband present, family"
+260,,"Estimate!!HOUSEHOLDS BY TYPE!!Family households (families)!!Female householder, no husband present, family!!With own children under 18 years"
+261,2,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Female householder, no husband present, family!!With own children under 18 years"
+262,,Estimate!!HOUSEHOLDS BY TYPE!!Nonfamily households
+263,2,Percent!!HOUSEHOLDS BY TYPE!!Nonfamily households
+264,,Estimate!!HOUSEHOLDS BY TYPE!!Nonfamily households!!Householder living alone
+265,2,Percent!!HOUSEHOLDS BY TYPE!!Nonfamily households!!Householder living alone
+266,,Estimate!!HOUSEHOLDS BY TYPE!!Nonfamily households!!Householder living alone!!65 years and over
+267,2,Percent!!HOUSEHOLDS BY TYPE!!Nonfamily households!!Householder living alone!!65 years and over
+268,,Estimate!!HOUSEHOLDS BY TYPE!!Households with one or more people under 18 years
+269,2,Percent!!HOUSEHOLDS BY TYPE!!Households with one or more people under 18 years
+270,,Estimate!!HOUSEHOLDS BY TYPE!!Households with one or more people 65 years and over
+271,2,Percent!!HOUSEHOLDS BY TYPE!!Households with one or more people 65 years and over
+272,1,Estimate!!HOUSEHOLDS BY TYPE!!Average household size
+273,2,Percent!!HOUSEHOLDS BY TYPE!!Average household size
+274,1,Estimate!!HOUSEHOLDS BY TYPE!!Average family size
+275,,Estimate!!RELATIONSHIP!!Population in households
+276,2,Percent!!HOUSEHOLDS BY TYPE!!Average family size
+277,2,Percent!!RELATIONSHIP!!Population in households
+278,,Estimate!!RELATIONSHIP!!Householder
+279,2,Percent!!RELATIONSHIP!!Householder
+280,,Estimate!!RELATIONSHIP!!Spouse
+281,2,Percent!!RELATIONSHIP!!Spouse
+282,,Estimate!!RELATIONSHIP!!Child
+283,2,Percent!!RELATIONSHIP!!Child
+284,,Estimate!!RELATIONSHIP!!Other relatives
+285,2,Percent!!RELATIONSHIP!!Other relatives
+286,,Estimate!!RELATIONSHIP!!Nonrelatives
+287,2,Percent!!RELATIONSHIP!!Nonrelatives
+288,,Estimate!!RELATIONSHIP!!Nonrelatives!!Unmarried partner
+289,2,Percent!!RELATIONSHIP!!Nonrelatives!!Unmarried partner
+290,,Estimate!!MARITAL STATUS!!Males 15 years and over
+291,2,Percent!!MARITAL STATUS!!Males 15 years and over
+292,,Estimate!!MARITAL STATUS!!Never married
+293,2,Percent!!MARITAL STATUS!!Never married
+294,,"Estimate!!MARITAL STATUS!!Now married, except separated"
+295,2,"Percent!!MARITAL STATUS!!Now married, except separated"
+296,,Estimate!!MARITAL STATUS!!Separated
+297,2,Percent!!MARITAL STATUS!!Separated
+298,,Estimate!!MARITAL STATUS!!Widowed
+299,2,Percent!!MARITAL STATUS!!Widowed
+300,,Estimate!!MARITAL STATUS!!Divorced
+301,2,Percent!!MARITAL STATUS!!Divorced
+302,,Estimate!!MARITAL STATUS!!Females 15 years and over
+303,2,Percent!!MARITAL STATUS!!Females 15 years and over
+304,,Estimate!!MARITAL STATUS!!Never married
+305,2,Percent!!MARITAL STATUS!!Never married
+306,,"Estimate!!MARITAL STATUS!!Now married, except separated"
+307,2,"Percent!!MARITAL STATUS!!Now married, except separated"
+308,,Estimate!!MARITAL STATUS!!Separated
+309,2,Percent!!MARITAL STATUS!!Separated
+310,,Estimate!!MARITAL STATUS!!Widowed
+311,2,Percent!!MARITAL STATUS!!Widowed
+312,,Estimate!!MARITAL STATUS!!Divorced
+313,2,Percent!!MARITAL STATUS!!Divorced
+314,,Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months
+315,2,Percent!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months
+316,,"Estimate!!FERTILITY!!Unmarried women (widowed, divorced, and never married)"
+317,2,"Percent!!FERTILITY!!Unmarried women (widowed, divorced, and never married)"
+318,,"Estimate!!FERTILITY!!Unmarried women (widowed, divorced, and never married)!!Per 1,000 unmarried women"
+319,2,"Percent!!FERTILITY!!Unmarried women (widowed, divorced, and never married)!!Per 1,000 unmarried women"
+320,,"Estimate!!FERTILITY!!Per 1,000 women 15 to 50 years old"
+321,2,"Percent!!FERTILITY!!Per 1,000 women 15 to 50 years old"
+322,,"Estimate!!FERTILITY!!Per 1,000 women 15 to 50 years old!!Per 1,000 women 15 to 19 years old"
+323,2,"Percent!!FERTILITY!!Per 1,000 women 15 to 50 years old!!Per 1,000 women 15 to 19 years old"
+324,,"Estimate!!FERTILITY!!Per 1,000 women 15 to 50 years old!!Per 1,000 women 20 to 34 years old"
+325,2,"Percent!!FERTILITY!!Per 1,000 women 15 to 50 years old!!Per 1,000 women 20 to 34 years old"
+326,,"Estimate!!FERTILITY!!Per 1,000 women 15 to 50 years old!!Per 1,000 women 35 to 50 years old"
+327,2,"Percent!!FERTILITY!!Per 1,000 women 15 to 50 years old!!Per 1,000 women 35 to 50 years old"
+328,,Estimate!!GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years
+329,2,Percent!!GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years
+330,,Estimate!!GRANDPARENTS!!Responsible for grandchildren
+331,2,Percent!!GRANDPARENTS!!Responsible for grandchildren
+332,,Estimate!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!Less than 1 year
+333,2,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!Less than 1 year
+334,,Estimate!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!1 or 2 years
+335,2,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!1 or 2 years
+336,,Estimate!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!3 or 4 years
+337,2,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!3 or 4 years
+338,,Estimate!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!5 or more years
+339,2,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!5 or more years
+340,,Estimate!!GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years
+341,2,Percent!!GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years
+342,,Estimate!!GRANDPARENTS!!Who are female
+343,2,Percent!!GRANDPARENTS!!Who are female
+344,,Estimate!!GRANDPARENTS!!Who are married
+345,2,Percent!!GRANDPARENTS!!Who are married
+346,,Estimate!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school
+347,2,Percent!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school
+348,,"Estimate!!SCHOOL ENROLLMENT!!Nursery school, preschool"
+349,2,"Percent!!SCHOOL ENROLLMENT!!Nursery school, preschool"
+350,,Estimate!!SCHOOL ENROLLMENT!!Kindergarten
+351,2,Percent!!SCHOOL ENROLLMENT!!Kindergarten
+352,,Estimate!!SCHOOL ENROLLMENT!!Elementary school (grades 1-8)
+353,2,Percent!!SCHOOL ENROLLMENT!!Elementary school (grades 1-8)
+354,,Estimate!!SCHOOL ENROLLMENT!!High school (grades 9-12)
+355,2,Percent!!SCHOOL ENROLLMENT!!High school (grades 9-12)
+356,,Estimate!!SCHOOL ENROLLMENT!!College or graduate school
+357,2,Percent!!SCHOOL ENROLLMENT!!College or graduate school
+358,,Estimate!!EDUCATIONAL ATTAINMENT!!Population 25 years and over
+359,2,Percent!!EDUCATIONAL ATTAINMENT!!Population 25 years and over
+360,,Estimate!!EDUCATIONAL ATTAINMENT!!Less than 9th grade
+361,2,Percent!!EDUCATIONAL ATTAINMENT!!Less than 9th grade
+362,,"Estimate!!EDUCATIONAL ATTAINMENT!!9th to 12th grade, no diploma"
+363,2,"Percent!!EDUCATIONAL ATTAINMENT!!9th to 12th grade, no diploma"
+364,,Estimate!!EDUCATIONAL ATTAINMENT!!High school graduate (includes equivalency)
+365,2,Percent!!EDUCATIONAL ATTAINMENT!!High school graduate (includes equivalency)
+366,,"Estimate!!EDUCATIONAL ATTAINMENT!!Some college, no degree"
+367,2,"Percent!!EDUCATIONAL ATTAINMENT!!Some college, no degree"
+368,,Estimate!!EDUCATIONAL ATTAINMENT!!Associate's degree
+369,2,Percent!!EDUCATIONAL ATTAINMENT!!Associate's degree
+370,2,Percent!!EDUCATIONAL ATTAINMENT!!Bachelor's degree
+371,,Estimate!!EDUCATIONAL ATTAINMENT!!Bachelor's degree
+372,,Estimate!!EDUCATIONAL ATTAINMENT!!Graduate or professional degree
+373,2,Percent!!EDUCATIONAL ATTAINMENT!!Graduate or professional degree
+374,2,Estimate!!EDUCATIONAL ATTAINMENT!!Percent high school graduate or higher
+375,2,Percent!!EDUCATIONAL ATTAINMENT!!Percent high school graduate or higher
+376,2,Estimate!!EDUCATIONAL ATTAINMENT!!Percent bachelor's degree or higher
+377,2,Percent!!EDUCATIONAL ATTAINMENT!!Percent bachelor's degree or higher
+378,,Estimate!!VETERAN STATUS!!Civilian population 18 years and over
+379,2,Percent!!VETERAN STATUS!!Civilian population 18 years and over
+380,,Estimate!!VETERAN STATUS!!Civilian veterans
+381,2,Percent!!VETERAN STATUS!!Civilian veterans
+382,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population
+383,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population
+384,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+385,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+386,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years
+387,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years
+388,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+389,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+390,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years
+391,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years
+392,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+393,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+394,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over
+395,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over
+396,,Estimate!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+397,2,Percent!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!With a disability
+398,,Estimate!!RESIDENCE 1 YEAR AGO!!Population 1 year and over
+399,2,Percent!!RESIDENCE 1 YEAR AGO!!Population 1 year and over
+400,,Estimate!!RESIDENCE 1 YEAR AGO!!Same house
+401,2,Percent!!RESIDENCE 1 YEAR AGO!!Same house
+402,,Estimate!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.
+403,2,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.
+404,,Estimate!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Same county
+405,2,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Same county
+406,,Estimate!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county
+407,2,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county
+408,,Estimate!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county!!Same state
+409,2,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county!!Same state
+410,,Estimate!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county!!Different state
+411,2,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county!!Different state
+412,,Estimate!!RESIDENCE 1 YEAR AGO!!Abroad
+413,2,Percent!!RESIDENCE 1 YEAR AGO!!Abroad
+414,,Estimate!!PLACE OF BIRTH!!Total population
+415,2,Percent!!PLACE OF BIRTH!!Total population
+416,,Estimate!!PLACE OF BIRTH!!Native
+417,2,Percent!!PLACE OF BIRTH!!Native
+418,,Estimate!!PLACE OF BIRTH!!Native!!Born in United States
+419,2,Percent!!PLACE OF BIRTH!!Native!!Born in United States
+420,,Estimate!!PLACE OF BIRTH!!Native!!Born in United States!!State of residence
+421,2,Percent!!PLACE OF BIRTH!!Native!!Born in United States!!State of residence
+422,,Estimate!!PLACE OF BIRTH!!Native!!Born in United States!!Different state
+423,2,Percent!!PLACE OF BIRTH!!Native!!Born in United States!!Different state
+424,,"Estimate!!PLACE OF BIRTH!!Native!!Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)"
+425,2,"Percent!!PLACE OF BIRTH!!Native!!Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)"
+426,,Estimate!!PLACE OF BIRTH!!Foreign born
+427,2,Percent!!PLACE OF BIRTH!!Foreign born
+428,,Estimate!!U.S. CITIZENSHIP STATUS!!Foreign-born population
+429,2,Percent!!U.S. CITIZENSHIP STATUS!!Foreign-born population
+430,,Estimate!!U.S. CITIZENSHIP STATUS!!Naturalized U.S. citizen
+431,2,Percent!!U.S. CITIZENSHIP STATUS!!Naturalized U.S. citizen
+432,,Estimate!!U.S. CITIZENSHIP STATUS!!Not a U.S. citizen
+433,2,Percent!!U.S. CITIZENSHIP STATUS!!Not a U.S. citizen
+434,,Estimate!!YEAR OF ENTRY!!Population born outside the United States
+435,2,Percent!!YEAR OF ENTRY!!Population born outside the United States
+436,,Estimate!!YEAR OF ENTRY!!Native
+437,2,Percent!!YEAR OF ENTRY!!Native
+438,,Estimate!!YEAR OF ENTRY!!Entered 2000 or later
+439,2,Percent!!YEAR OF ENTRY!!Entered 2000 or later
+440,,Estimate!!YEAR OF ENTRY!!Entered before 2000
+441,2,Percent!!YEAR OF ENTRY!!Entered before 2000
+442,,Estimate!!YEAR OF ENTRY!!Foreign born
+443,2,Percent!!YEAR OF ENTRY!!Foreign born
+444,,Estimate!!YEAR OF ENTRY!!Entered 2000 or later
+445,2,Percent!!YEAR OF ENTRY!!Entered 2000 or later
+446,,Estimate!!YEAR OF ENTRY!!Entered before 2000
+447,2,Percent!!YEAR OF ENTRY!!Entered before 2000
+448,,"Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea"
+449,2,"Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea"
+450,,Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Europe
+451,2,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Europe
+452,,Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Asia
+453,2,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Asia
+454,,Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Africa
+455,2,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Africa
+456,,Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Oceania
+457,2,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Oceania
+458,,Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Latin America
+459,2,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Latin America
+460,,Estimate!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Northern America
+461,2,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Northern America
+462,,Estimate!!LANGUAGE SPOKEN AT HOME!!Population 5 years and over
+463,2,Percent!!LANGUAGE SPOKEN AT HOME!!Population 5 years and over
+464,,Estimate!!LANGUAGE SPOKEN AT HOME!!English only
+465,,Estimate!!HOUSING OCCUPANCY!!Total housing units
+466,2,Percent!!HOUSING OCCUPANCY!!Total housing units
+467,,Estimate!!HOUSING OCCUPANCY!!Occupied housing units
+468,2,Percent!!HOUSING OCCUPANCY!!Occupied housing units
+469,,Estimate!!HOUSING OCCUPANCY!!Vacant housing units
+470,2,Percent!!HOUSING OCCUPANCY!!Vacant housing units
+471,,Estimate!!HOUSING OCCUPANCY!!Homeowner vacancy rate
+472,2,Percent!!HOUSING OCCUPANCY!!Homeowner vacancy rate
+473,,Estimate!!HOUSING OCCUPANCY!!Rental vacancy rate
+474,2,Percent!!HOUSING OCCUPANCY!!Rental vacancy rate
+475,,Estimate!!UNITS IN STRUCTURE!!Total housing units
+476,2,Percent!!UNITS IN STRUCTURE!!Total housing units
+477,,"Estimate!!UNITS IN STRUCTURE!!1-unit, detached"
+478,2,"Percent!!UNITS IN STRUCTURE!!1-unit, detached"
+479,,"Estimate!!UNITS IN STRUCTURE!!1-unit, attached"
+480,2,"Percent!!UNITS IN STRUCTURE!!1-unit, attached"
+481,,Estimate!!UNITS IN STRUCTURE!!2 units
+482,2,Percent!!UNITS IN STRUCTURE!!2 units
+483,,Estimate!!UNITS IN STRUCTURE!!3 or 4 units
+484,2,Percent!!UNITS IN STRUCTURE!!3 or 4 units
+485,,Estimate!!UNITS IN STRUCTURE!!5 to 9 units
+486,2,Percent!!UNITS IN STRUCTURE!!5 to 9 units
+487,,Estimate!!UNITS IN STRUCTURE!!10 to 19 units
+488,2,Percent!!UNITS IN STRUCTURE!!10 to 19 units
+489,,Estimate!!UNITS IN STRUCTURE!!20 or more units
+490,2,Percent!!UNITS IN STRUCTURE!!20 or more units
+491,,Estimate!!UNITS IN STRUCTURE!!Mobile home
+492,2,Percent!!UNITS IN STRUCTURE!!Mobile home
+493,,"Estimate!!UNITS IN STRUCTURE!!Boat, RV, van, etc."
+494,2,"Percent!!UNITS IN STRUCTURE!!Boat, RV, van, etc."
+495,1,Estimate!!YEAR STRUCTURE BUILT!!Total housing units
+496,2,Percent!!YEAR STRUCTURE BUILT!!Total housing units
+497,,Estimate!!YEAR STRUCTURE BUILT!!Built 2005 or later
+498,2,Percent!!YEAR STRUCTURE BUILT!!Built 2005 or later
+499,,Estimate!!YEAR STRUCTURE BUILT!!Built 2000 to 2004
+500,2,Percent!!YEAR STRUCTURE BUILT!!Built 2000 to 2004
+501,,Estimate!!YEAR STRUCTURE BUILT!!Built 1990 to 1999
+502,2,Percent!!YEAR STRUCTURE BUILT!!Built 1990 to 1999
+503,,Estimate!!YEAR STRUCTURE BUILT!!Built 1980 to 1989
+504,2,Percent!!YEAR STRUCTURE BUILT!!Built 1980 to 1989
+505,,Estimate!!YEAR STRUCTURE BUILT!!Built 1970 to 1979
+506,2,Percent!!YEAR STRUCTURE BUILT!!Built 1970 to 1979
+507,,Estimate!!YEAR STRUCTURE BUILT!!Built 1960 to 1969
+508,2,Percent!!YEAR STRUCTURE BUILT!!Built 1960 to 1969
+509,,Estimate!!YEAR STRUCTURE BUILT!!Built 1950 to 1959
+510,2,Percent!!YEAR STRUCTURE BUILT!!Built 1950 to 1959
+511,,Estimate!!YEAR STRUCTURE BUILT!!Built 1940 to 1949
+512,2,Percent!!YEAR STRUCTURE BUILT!!Built 1940 to 1949
+513,,Estimate!!YEAR STRUCTURE BUILT!!Built 1939 or earlier
+514,2,Percent!!YEAR STRUCTURE BUILT!!Built 1939 or earlier
+515,,Estimate!!ROOMS!!Total housing units
+516,2,Percent!!ROOMS!!Total housing units
+517,,Estimate!!ROOMS!!1 room
+518,2,Percent!!ROOMS!!1 room
+519,,Estimate!!ROOMS!!2 rooms
+520,2,Percent!!ROOMS!!2 rooms
+521,,Estimate!!ROOMS!!3 rooms
+522,2,Percent!!ROOMS!!3 rooms
+523,,Estimate!!ROOMS!!4 rooms
+524,2,Percent!!ROOMS!!4 rooms
+525,,Estimate!!ROOMS!!5 rooms
+526,2,Percent!!ROOMS!!5 rooms
+527,,Estimate!!ROOMS!!6 rooms
+528,2,Percent!!ROOMS!!6 rooms
+529,,Estimate!!ROOMS!!7 rooms
+530,2,Percent!!ROOMS!!7 rooms
+531,,Estimate!!ROOMS!!8 rooms
+532,2,Percent!!ROOMS!!8 rooms
+533,,Estimate!!ROOMS!!9 rooms or more
+534,2,Percent!!ROOMS!!9 rooms or more
+535,,Estimate!!ROOMS!!Median rooms
+536,2,Percent!!ROOMS!!Median rooms
+537,,Estimate!!BEDROOMS!!Total housing units
+538,2,Percent!!BEDROOMS!!Total housing units
+539,,Estimate!!BEDROOMS!!No bedroom
+540,2,Percent!!BEDROOMS!!No bedroom
+541,,Estimate!!BEDROOMS!!1 bedroom
+542,2,Percent!!BEDROOMS!!1 bedroom
+543,,Estimate!!BEDROOMS!!2 bedrooms
+544,2,Percent!!BEDROOMS!!2 bedrooms
+545,,Estimate!!BEDROOMS!!3 bedrooms
+546,2,Percent!!BEDROOMS!!3 bedrooms
+547,,Estimate!!BEDROOMS!!4 bedrooms
+548,2,Percent!!BEDROOMS!!4 bedrooms
+549,,Estimate!!BEDROOMS!!5 or more bedrooms
+550,2,Percent!!BEDROOMS!!5 or more bedrooms
+551,,Estimate!!HOUSING TENURE!!Occupied housing units
+552,2,Percent!!HOUSING TENURE!!Occupied housing units
+553,,Estimate!!HOUSING TENURE!!Owner-occupied
+554,2,Percent!!HOUSING TENURE!!Owner-occupied
+555,,Estimate!!HOUSING TENURE!!Renter-occupied
+556,2,Percent!!HOUSING TENURE!!Renter-occupied
+557,1,Estimate!!HOUSING TENURE!!Average household size of owner-occupied unit
+558,2,Percent!!HOUSING TENURE!!Average household size of owner-occupied unit
+559,1,Estimate!!HOUSING TENURE!!Average household size of renter-occupied unit
+560,2,Percent!!HOUSING TENURE!!Average household size of renter-occupied unit
+561,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units
+562,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units
+563,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 2005 or later
+564,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 2005 or later
+565,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 2000 to 2004
+566,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 2000 to 2004
+567,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1990 to 1999
+568,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1990 to 1999
+569,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1980 to 1989
+570,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1980 to 1989
+571,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1970 to 1979
+572,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1970 to 1979
+573,,Estimate!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1969 or earlier
+574,2,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1969 or earlier
+575,1,Estimate!!VEHICLES AVAILABLE!!Occupied housing units
+576,2,Percent!!VEHICLES AVAILABLE!!Occupied housing units
+577,,Estimate!!VEHICLES AVAILABLE!!No vehicles available
+578,2,Percent!!VEHICLES AVAILABLE!!No vehicles available
+579,,Estimate!!VEHICLES AVAILABLE!!1 vehicle available
+580,2,Percent!!VEHICLES AVAILABLE!!1 vehicle available
+581,,Estimate!!VEHICLES AVAILABLE!!2 vehicles available
+582,2,Percent!!VEHICLES AVAILABLE!!2 vehicles available
+583,,Estimate!!VEHICLES AVAILABLE!!3 or more vehicles available
+584,2,Percent!!VEHICLES AVAILABLE!!3 or more vehicles available
+585,,Estimate!!HOUSE HEATING FUEL!!Occupied housing units
+586,2,Percent!!HOUSE HEATING FUEL!!Occupied housing units
+587,,Estimate!!HOUSE HEATING FUEL!!Utility gas
+588,2,Percent!!HOUSE HEATING FUEL!!Utility gas
+589,,"Estimate!!HOUSE HEATING FUEL!!Bottled, tank, or LP gas"
+590,2,"Percent!!HOUSE HEATING FUEL!!Bottled, tank, or LP gas"
+591,,Estimate!!HOUSE HEATING FUEL!!Electricity
+592,2,Percent!!HOUSE HEATING FUEL!!Electricity
+593,,"Estimate!!HOUSE HEATING FUEL!!Fuel oil, kerosene, etc."
+594,2,"Percent!!HOUSE HEATING FUEL!!Fuel oil, kerosene, etc."
+595,,Estimate!!HOUSE HEATING FUEL!!Coal or coke
+596,2,Percent!!HOUSE HEATING FUEL!!Coal or coke
+597,,Estimate!!HOUSE HEATING FUEL!!Wood
+598,2,Percent!!HOUSE HEATING FUEL!!Wood
+599,,Estimate!!HOUSE HEATING FUEL!!Solar energy
+600,2,Percent!!HOUSE HEATING FUEL!!Solar energy
+601,,Estimate!!HOUSE HEATING FUEL!!Other fuel
+602,2,Percent!!HOUSE HEATING FUEL!!Other fuel
+603,,Estimate!!HOUSE HEATING FUEL!!No fuel used
+604,2,Percent!!HOUSE HEATING FUEL!!No fuel used
+605,,Estimate!!SELECTED CHARACTERISTICS!!Occupied housing units
+606,2,Percent!!SELECTED CHARACTERISTICS!!Occupied housing units
+607,,Estimate!!SELECTED CHARACTERISTICS!!Lacking complete plumbing facilities
+608,2,Percent!!SELECTED CHARACTERISTICS!!Lacking complete plumbing facilities
+609,,Estimate!!SELECTED CHARACTERISTICS!!Lacking complete kitchen facilities
+610,2,Percent!!SELECTED CHARACTERISTICS!!Lacking complete kitchen facilities
+611,,Estimate!!SELECTED CHARACTERISTICS!!No telephone service available
+612,2,Percent!!SELECTED CHARACTERISTICS!!No telephone service available
+613,,Estimate!!OCCUPANTS PER ROOM!!Occupied housing units
+614,2,Percent!!OCCUPANTS PER ROOM!!Occupied housing units
+615,,Estimate!!OCCUPANTS PER ROOM!!1.00 or less
+616,2,Percent!!OCCUPANTS PER ROOM!!1.00 or less
+617,,Estimate!!OCCUPANTS PER ROOM!!1.01 to 1.50
+618,2,Percent!!OCCUPANTS PER ROOM!!1.01 to 1.50
+619,,Estimate!!OCCUPANTS PER ROOM!!1.51 or more
+620,2,Percent!!OCCUPANTS PER ROOM!!1.51 or more
+621,1,Estimate!!VALUE!!Owner-occupied units
+622,2,Percent!!VALUE!!Owner-occupied units
+623,,"Estimate!!VALUE!!Less than $50,000"
+624,2,"Percent!!VALUE!!Less than $50,000"
+625,,"Estimate!!VALUE!!$50,000 to $99,999"
+626,2,"Percent!!VALUE!!$50,000 to $99,999"
+627,,"Estimate!!VALUE!!$100,000 to $149,999"
+628,2,"Percent!!VALUE!!$100,000 to $149,999"
+629,,"Estimate!!VALUE!!$150,000 to $199,999"
+630,2,"Percent!!VALUE!!$150,000 to $199,999"
+631,,"Estimate!!VALUE!!$200,000 to $299,999"
+632,2,"Percent!!VALUE!!$200,000 to $299,999"
+633,,"Estimate!!VALUE!!$300,000 to $499,999"
+634,2,"Percent!!VALUE!!$300,000 to $499,999"
+635,,"Estimate!!VALUE!!$500,000 to $999,999"
+636,2,"Percent!!VALUE!!$500,000 to $999,999"
+637,,"Estimate!!VALUE!!$1,000,000 or more"
+638,2,"Percent!!VALUE!!$1,000,000 or more"
+639,1,Estimate!!VALUE!!Median (dollars)
+640,2,Percent!!VALUE!!Median (dollars)
+641,1,Estimate!!MORTGAGE STATUS!!Owner-occupied units
+642,2,Percent!!MORTGAGE STATUS!!Owner-occupied units
+643,,Estimate!!MORTGAGE STATUS!!Housing units with a mortgage
+644,2,Percent!!MORTGAGE STATUS!!Housing units with a mortgage
+645,,Estimate!!MORTGAGE STATUS!!Housing units without a mortgage
+646,2,Percent!!MORTGAGE STATUS!!Housing units without a mortgage
+647,1,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage
+648,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage
+649,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Less than $300
+650,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Less than $300
+651,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$300 to $499
+652,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$300 to $499
+653,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$500 to $699
+654,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$500 to $699
+655,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$700 to $999
+656,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$700 to $999
+657,,"Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$1,000 to $1,499"
+658,2,"Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$1,000 to $1,499"
+659,,"Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$1,500 to $1,999"
+660,2,"Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$1,500 to $1,999"
+661,,"Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$2,000 or more"
+662,2,"Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$2,000 or more"
+663,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Median (dollars)
+664,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Median (dollars)
+665,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage
+666,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage
+667,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Less than $100
+668,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Less than $100
+669,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$100 to $199
+670,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$100 to $199
+671,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$200 to $299
+672,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$200 to $299
+673,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$300 to $399
+674,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$300 to $399
+675,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$400 or more
+676,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$400 or more
+677,,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Median (dollars)
+678,2,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Median (dollars)
+679,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)
+680,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)
+681,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 20.0 percent
+682,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 20.0 percent
+683,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!20.0 to 24.9 percent
+684,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!20.0 to 24.9 percent
+685,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!25.0 to 29.9 percent
+686,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!25.0 to 29.9 percent
+687,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!30.0 to 34.9 percent
+688,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!30.0 to 34.9 percent
+689,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!35.0 percent or more
+690,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!35.0 percent or more
+691,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Not computed
+692,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Not computed
+693,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)
+694,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)
+695,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 10.0 percent
+696,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 10.0 percent
+697,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!10.0 to 14.9 percent
+698,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!10.0 to 14.9 percent
+699,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!15.0 to 19.9 percent
+700,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!15.0 to 19.9 percent
+701,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!20.0 to 24.9 percent
+702,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!20.0 to 24.9 percent
+703,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!25.0 to 29.9 percent
+704,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!25.0 to 29.9 percent
+705,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!30.0 to 34.9 percent
+706,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!30.0 to 34.9 percent
+707,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!35.0 percent or more
+708,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!35.0 percent or more
+709,2,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Not computed
+710,2,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Not computed
+711,1,Estimate!!GROSS RENT!!Occupied units paying rent
+712,2,Percent!!GROSS RENT!!Occupied units paying rent
+713,,Estimate!!GROSS RENT!!Less than $200
+714,2,Percent!!GROSS RENT!!Less than $200
+715,,Estimate!!GROSS RENT!!$200 to $299
+716,2,Percent!!GROSS RENT!!$200 to $299
+717,,Estimate!!GROSS RENT!!$300 to $499
+718,2,Percent!!GROSS RENT!!$300 to $499
+719,,Estimate!!GROSS RENT!!$500 to $749
+720,2,Percent!!GROSS RENT!!$500 to $749
+721,,Estimate!!GROSS RENT!!$750 to $999
+722,2,Percent!!GROSS RENT!!$750 to $999
+723,,"Estimate!!GROSS RENT!!$1,000 to $1,499"
+724,2,"Percent!!GROSS RENT!!$1,000 to $1,499"
+725,,"Estimate!!GROSS RENT!!$1,500 or more"
+726,2,"Percent!!GROSS RENT!!$1,500 or more"
+727,,Estimate!!GROSS RENT!!Median (dollars)
+728,2,Percent!!GROSS RENT!!Median (dollars)
+729,,Estimate!!GROSS RENT!!No rent paid
+730,2,Percent!!GROSS RENT!!No rent paid
+731,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)
+732,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)
+733,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Less than 15.0 percent
+734,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Less than 15.0 percent
+735,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!15.0 to 19.9 percent
+736,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!15.0 to 19.9 percent
+737,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!20.0 to 24.9 percent
+738,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!20.0 to 24.9 percent
+739,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!25.0 to 29.9 percent
+740,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!25.0 to 29.9 percent
+741,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!30.0 to 34.9 percent
+742,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!30.0 to 34.9 percent
+743,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!35.0 percent or more
+744,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!35.0 percent or more
+745,2,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed
+746,2,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed
+747,,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over
+748,2,Percent!!EMPLOYMENT STATUS!!Population 16 years and over
+749,,Estimate!!EMPLOYMENT STATUS!!In labor force
+750,2,Percent!!EMPLOYMENT STATUS!!In labor force
+751,,Estimate!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force
+752,2,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force
+753,,Estimate!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Employed
+754,2,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Employed
+755,,Estimate!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Unemployed
+756,2,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Unemployed
+757,,Estimate!!EMPLOYMENT STATUS!!In labor force!!Armed Forces
+758,2,Percent!!EMPLOYMENT STATUS!!In labor force!!Armed Forces
+759,,Estimate!!EMPLOYMENT STATUS!!Not in labor force
+760,2,Percent!!EMPLOYMENT STATUS!!Not in labor force
+761,,Estimate!!EMPLOYMENT STATUS!!Civilian labor force
+762,2,Percent!!EMPLOYMENT STATUS!!Civilian labor force
+763,2,Estimate!!EMPLOYMENT STATUS!!Percent Unemployed
+764,2,Percent!!EMPLOYMENT STATUS!!Percent Unemployed
+765,,Estimate!!EMPLOYMENT STATUS!!Females 16 years and over
+766,2,Percent!!EMPLOYMENT STATUS!!Females 16 years and over
+767,,Estimate!!EMPLOYMENT STATUS!!In labor force
+768,2,Percent!!EMPLOYMENT STATUS!!In labor force
+769,,Estimate!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force
+770,2,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force
+771,,Estimate!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Employed
+772,2,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Employed
+773,,Estimate!!EMPLOYMENT STATUS!!Own children under 6 years
+774,2,Percent!!EMPLOYMENT STATUS!!Own children under 6 years
+775,,Estimate!!EMPLOYMENT STATUS!!All parents in family in labor force
+776,2,Percent!!EMPLOYMENT STATUS!!All parents in family in labor force
+777,,Estimate!!EMPLOYMENT STATUS!!Own children 6 to 17 years
+778,2,Percent!!EMPLOYMENT STATUS!!Own children 6 to 17 years
+779,,Estimate!!EMPLOYMENT STATUS!!All parents in family in labor force
+780,2,Percent!!EMPLOYMENT STATUS!!All parents in family in labor force
+781,,Estimate!!COMMUTING TO WORK!!Workers 16 years and over
+782,2,Percent!!COMMUTING TO WORK!!Workers 16 years and over
+783,,"Estimate!!COMMUTING TO WORK!!Car, truck, or van -- drove alone"
+784,2,"Percent!!COMMUTING TO WORK!!Car, truck, or van -- drove alone"
+785,,"Estimate!!COMMUTING TO WORK!!Car, truck, or van -- carpooled"
+786,2,"Percent!!COMMUTING TO WORK!!Car, truck, or van -- carpooled"
+787,,Estimate!!COMMUTING TO WORK!!Public transportation (excluding taxicab)
+788,2,Percent!!COMMUTING TO WORK!!Public transportation (excluding taxicab)
+789,,Estimate!!COMMUTING TO WORK!!Walked
+790,2,Percent!!COMMUTING TO WORK!!Walked
+791,,Estimate!!COMMUTING TO WORK!!Other means
+792,2,Percent!!COMMUTING TO WORK!!Other means
+793,,Estimate!!COMMUTING TO WORK!!Worked at home
+794,2,Percent!!COMMUTING TO WORK!!Worked at home
+795,,Estimate!!COMMUTING TO WORK!!Mean travel time to work (minutes)
+796,2,Percent!!COMMUTING TO WORK!!Mean travel time to work (minutes)
+797,,Estimate!!OCCUPATION!!Civilian employed population 16 years and over
+798,2,Percent!!OCCUPATION!!Civilian employed population 16 years and over
+799,,"Estimate!!OCCUPATION!!Management, business, science, and arts occupations"
+800,2,"Percent!!OCCUPATION!!Management, business, science, and arts occupations"
+801,,Estimate!!OCCUPATION!!Service occupations
+802,2,Percent!!OCCUPATION!!Service occupations
+803,,Estimate!!OCCUPATION!!Sales and office occupations
+804,2,Percent!!OCCUPATION!!Sales and office occupations
+805,,"Estimate!!OCCUPATION!!Natural resources, construction, and maintenance occupations"
+806,2,"Percent!!OCCUPATION!!Natural resources, construction, and maintenance occupations"
+807,,"Estimate!!OCCUPATION!!Production, transportation, and material moving occupations"
+808,2,"Percent!!OCCUPATION!!Production, transportation, and material moving occupations"
+809,,Estimate!!INDUSTRY!!Civilian employed population 16 years and over
+810,2,Percent!!INDUSTRY!!Civilian employed population 16 years and over
+811,,"Estimate!!INDUSTRY!!Agriculture, forestry, fishing and hunting, and mining"
+812,2,"Percent!!INDUSTRY!!Agriculture, forestry, fishing and hunting, and mining"
+813,,Estimate!!INDUSTRY!!Construction
+814,2,Percent!!INDUSTRY!!Construction
+815,,Estimate!!INDUSTRY!!Manufacturing
+816,2,Percent!!INDUSTRY!!Manufacturing
+817,,Estimate!!INDUSTRY!!Wholesale trade
+818,2,Percent!!INDUSTRY!!Wholesale trade
+819,,Estimate!!INDUSTRY!!Retail trade
+820,2,Percent!!INDUSTRY!!Retail trade
+821,,"Estimate!!INDUSTRY!!Transportation and warehousing, and utilities"
+822,2,"Percent!!INDUSTRY!!Transportation and warehousing, and utilities"
+823,,Estimate!!INDUSTRY!!Information
+824,2,Percent!!INDUSTRY!!Information
+825,,"Estimate!!INDUSTRY!!Finance and insurance, and real estate and rental and leasing"
+826,2,"Percent!!INDUSTRY!!Finance and insurance, and real estate and rental and leasing"
+827,,"Estimate!!INDUSTRY!!Professional, scientific, and management, and administrative and waste management services"
+828,2,"Percent!!INDUSTRY!!Professional, scientific, and management, and administrative and waste management services"
+829,,"Estimate!!INDUSTRY!!Educational services, and health care and social assistance"
+830,2,"Percent!!INDUSTRY!!Educational services, and health care and social assistance"
+831,,"Estimate!!INDUSTRY!!Arts, entertainment, and recreation, and accommodation and food services"
+832,2,"Percent!!INDUSTRY!!Arts, entertainment, and recreation, and accommodation and food services"
+833,,"Estimate!!INDUSTRY!!Other services, except public administration"
+834,2,"Percent!!INDUSTRY!!Other services, except public administration"
+835,,Estimate!!INDUSTRY!!Public administration
+836,2,Percent!!INDUSTRY!!Public administration
+837,,Estimate!!CLASS OF WORKER!!Civilian employed population 16 years and over
+838,2,Percent!!CLASS OF WORKER!!Civilian employed population 16 years and over
+839,,Estimate!!CLASS OF WORKER!!Private wage and salary workers
+840,2,Percent!!CLASS OF WORKER!!Private wage and salary workers
+841,,Estimate!!CLASS OF WORKER!!Government workers
+842,2,Percent!!CLASS OF WORKER!!Government workers
+843,,Estimate!!CLASS OF WORKER!!Self-employed in own not incorporated business workers
+844,2,Percent!!CLASS OF WORKER!!Self-employed in own not incorporated business workers
+845,,Estimate!!CLASS OF WORKER!!Unpaid family workers
+846,2,Percent!!CLASS OF WORKER!!Unpaid family workers
+847,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Total households
+848,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Total households
+849,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Less than $10,000"
+850,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Less than $10,000"
+851,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$10,000 to $14,999"
+852,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$10,000 to $14,999"
+853,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$15,000 to $24,999"
+854,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$15,000 to $24,999"
+855,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$25,000 to $34,999"
+856,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$25,000 to $34,999"
+857,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$35,000 to $49,999"
+858,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$35,000 to $49,999"
+859,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$50,000 to $74,999"
+860,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$50,000 to $74,999"
+861,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$75,000 to $99,999"
+862,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$75,000 to $99,999"
+863,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$100,000 to $149,999"
+864,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$100,000 to $149,999"
+865,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$150,000 to $199,999"
+866,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$150,000 to $199,999"
+867,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$200,000 or more"
+868,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$200,000 or more"
+869,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median household income (dollars)
+870,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median household income (dollars)
+871,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean household income (dollars)
+872,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean household income (dollars)
+873,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With earnings
+874,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With earnings
+875,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With earnings!!Mean earnings (dollars)
+876,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With earnings!!Mean earnings (dollars)
+877,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Social Security
+878,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Social Security
+879,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Social Security!!Mean Social Security income (dollars)
+880,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Social Security!!Mean Social Security income (dollars)
+881,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With retirement income
+882,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With retirement income
+883,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With retirement income!!Mean retirement income (dollars)
+884,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With retirement income!!Mean retirement income (dollars)
+885,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Supplemental Security Income
+886,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Supplemental Security Income
+887,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Supplemental Security Income!!Mean Supplemental Security Income (dollars)
+888,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Supplemental Security Income!!Mean Supplemental Security Income (dollars)
+889,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With cash public assistance income
+890,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With cash public assistance income
+891,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With cash public assistance income!!Mean cash public assistance income (dollars)
+892,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With cash public assistance income!!Mean cash public assistance income (dollars)
+893,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Food Stamp/SNAP benefits in the past 12 months
+894,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Food Stamp/SNAP benefits in the past 12 months
+895,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Families
+896,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Families
+897,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Less than $10,000"
+898,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Less than $10,000"
+899,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$10,000 to $14,999"
+900,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$10,000 to $14,999"
+901,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$15,000 to $24,999"
+902,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$15,000 to $24,999"
+903,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$25,000 to $34,999"
+904,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$25,000 to $34,999"
+905,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$35,000 to $49,999"
+906,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$35,000 to $49,999"
+907,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$50,000 to $74,999"
+908,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$50,000 to $74,999"
+909,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$75,000 to $99,999"
+910,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$75,000 to $99,999"
+911,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$100,000 to $149,999"
+912,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$100,000 to $149,999"
+913,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$150,000 to $199,999"
+914,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$150,000 to $199,999"
+915,,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$200,000 or more"
+916,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$200,000 or more"
+917,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median family income (dollars)
+918,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median family income (dollars)
+919,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean family income (dollars)
+920,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean family income (dollars)
+921,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Per capita income (dollars)
+922,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Per capita income (dollars)
+923,,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households
+924,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households
+925,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median nonfamily income (dollars)
+926,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median nonfamily income (dollars)
+927,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean nonfamily income (dollars)
+928,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean nonfamily income (dollars)
+929,1,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for workers (dollars)
+930,2,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for workers (dollars)
+931,1,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for male full-time, year-round workers (dollars)"
+932,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for male full-time, year-round workers (dollars)"
+933,1,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for female full-time, year-round workers (dollars)"
+934,2,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for female full-time, year-round workers (dollars)"
+935,,Estimate!!HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population
+936,2,Percent!!HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population
+937,,Estimate!!HEALTH INSURANCE COVERAGE!!With health insurance coverage
+938,2,Percent!!HEALTH INSURANCE COVERAGE!!With health insurance coverage
+939,,Estimate!!HEALTH INSURANCE COVERAGE!!With health insurance coverage!!With private health insurance
+940,2,Percent!!HEALTH INSURANCE COVERAGE!!With health insurance coverage!!With private health insurance
+941,,Estimate!!HEALTH INSURANCE COVERAGE!!With health insurance coverage!!With public coverage
+942,2,Percent!!HEALTH INSURANCE COVERAGE!!With health insurance coverage!!With public coverage
+943,,Estimate!!HEALTH INSURANCE COVERAGE!!No health insurance coverage
+944,2,Percent!!HEALTH INSURANCE COVERAGE!!No health insurance coverage
+945,,Estimate!!HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population under 18 years
+946,2,Percent!!HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population under 18 years
+947,,Estimate!!HEALTH INSURANCE COVERAGE!!No health insurance coverage
+948,2,Percent!!HEALTH INSURANCE COVERAGE!!No health insurance coverage
+949,,Estimate!!HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 18 to 64 years
+950,2,Percent!!HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 18 to 64 years
+951,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force
+952,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force
+953,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed
+954,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed
+955,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!With health insurance coverage
+956,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!With health insurance coverage
+957,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!With health insurance coverage!!With private health insurance
+958,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!With health insurance coverage!!With private health insurance
+959,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!With health insurance coverage!!With public coverage
+960,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!With health insurance coverage!!With public coverage
+961,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!No health insurance coverage
+962,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Employed!!No health insurance coverage
+963,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed
+964,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed
+965,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!With health insurance coverage
+966,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!With health insurance coverage
+967,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!With health insurance coverage!!With private health insurance
+968,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!With health insurance coverage!!With private health insurance
+969,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!With health insurance coverage!!With public coverage
+970,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!With health insurance coverage!!With public coverage
+971,,Estimate!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!No health insurance coverage
+972,2,Percent!!HEALTH INSURANCE COVERAGE!!In labor force!!Unemployed!!No health insurance coverage
+973,,Estimate!!HEALTH INSURANCE COVERAGE!!Not in labor force
+974,2,Percent!!HEALTH INSURANCE COVERAGE!!Not in labor force
+975,,Estimate!!HEALTH INSURANCE COVERAGE!!Not in labor force!!With health insurance coverage
+976,2,Percent!!HEALTH INSURANCE COVERAGE!!Not in labor force!!With health insurance coverage
+977,,Estimate!!HEALTH INSURANCE COVERAGE!!Not in labor force!!With health insurance coverage!!With private health insurance
+978,2,Percent!!HEALTH INSURANCE COVERAGE!!Not in labor force!!With health insurance coverage!!With private health insurance
+979,,Estimate!!HEALTH INSURANCE COVERAGE!!Not in labor force!!With health insurance coverage!!With public coverage
+980,2,Percent!!HEALTH INSURANCE COVERAGE!!Not in labor force!!With health insurance coverage!!With public coverage
+981,,Estimate!!HEALTH INSURANCE COVERAGE!!Not in labor force!!No health insurance coverage
+982,2,Percent!!HEALTH INSURANCE COVERAGE!!Not in labor force!!No health insurance coverage
+983,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families
+984,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families
+985,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children under 18 years
+986,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children under 18 years
+987,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children under 18 years!!With related children under 5 years only
+988,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children under 18 years!!With related children under 5 years only
+989,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families
+990,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families
+991,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families!!With related children under 18 years
+992,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families!!With related children under 18 years
+993,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families!!With related children under 18 years!!With related children under 5 years only
+994,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families!!With related children under 18 years!!With related children under 5 years only
+995,2,"Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present"
+996,2,"Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present"
+997,2,"Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present!!With related children under 18 years"
+998,2,"Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present!!With related children under 18 years"
+999,2,"Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present!!With related children under 18 years!!With related children under 5 years only"
+1000,2,"Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present!!With related children under 18 years!!With related children under 5 years only"
+1001,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people
+1002,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people
+1003,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years
+1004,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years
+1005,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years
+1006,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years
+1007,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years!!Related children under 5 years
+1008,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years!!Related children under 5 years
+1009,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years!!Related children 5 to 17 years
+1010,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years!!Related children 5 to 17 years
+1011,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over
+1012,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over
+1013,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over!!18 to 64 years
+1014,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over!!18 to 64 years
+1015,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over!!65 years and over
+1016,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over!!65 years and over
+1017,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!People in families
+1018,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!People in families
+1019,2,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over
+1020,2,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over

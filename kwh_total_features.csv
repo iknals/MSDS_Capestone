@@ -1,0 +1,439 @@
+,feature_name,rank,confirmed,tentative
+0,Estimate!!SEX AND AGE!!Total population,13,False,False
+1,Percent!!SEX AND AGE!!Total population,397,False,False
+2,Percent!!SEX AND AGE!!Male,81,False,False
+3,Percent!!SEX AND AGE!!Female,397,False,False
+4,Percent!!SEX AND AGE!!Under 5 years,57,False,False
+5,Percent!!SEX AND AGE!!5 to 9 years,88,False,False
+6,Percent!!SEX AND AGE!!10 to 14 years,107,False,False
+7,Percent!!SEX AND AGE!!15 to 19 years,56,False,False
+8,Percent!!SEX AND AGE!!20 to 24 years,66,False,False
+9,Percent!!SEX AND AGE!!25 to 34 years,62,False,False
+10,Percent!!SEX AND AGE!!35 to 44 years,72,False,False
+11,Percent!!SEX AND AGE!!45 to 54 years,22,False,False
+12,Percent!!SEX AND AGE!!55 to 59 years,8,False,False
+13,Percent!!SEX AND AGE!!60 to 64 years,49,False,False
+14,Percent!!SEX AND AGE!!65 to 74 years,65,False,False
+15,Percent!!SEX AND AGE!!75 to 84 years,28,False,False
+16,Percent!!SEX AND AGE!!85 years and over,98,False,False
+17,Estimate!!SEX AND AGE!!Median age (years),44,False,False
+18,Percent!!SEX AND AGE!!18 years and over,44,False,False
+19,Percent!!SEX AND AGE!!21 years and over,1,True,False
+20,Percent!!SEX AND AGE!!62 years and over,111,False,False
+21,Percent!!SEX AND AGE!!65 years and over,91,False,False
+22,Estimate!!RACE!!Total population,397,False,False
+23,Percent!!RACE!!Total population,397,False,False
+24,Percent!!RACE!!One race,15,False,False
+25,Percent!!RACE!!Two or more races,397,False,False
+26,Percent!!RACE!!One race!!White,20,False,False
+27,Percent!!RACE!!One race!!Black or African American,133,False,False
+28,Percent!!RACE!!One race!!American Indian and Alaska Native,80,False,False
+29,Percent!!RACE!!One race!!American Indian and Alaska Native!!Cherokee tribal grouping,312,False,False
+30,Percent!!RACE!!One race!!American Indian and Alaska Native!!Chippewa tribal grouping,10,False,False
+31,Percent!!RACE!!One race!!American Indian and Alaska Native!!Navajo tribal grouping,377,False,False
+32,Percent!!RACE!!One race!!American Indian and Alaska Native!!Sioux tribal grouping,345,False,False
+33,Percent!!RACE!!One race!!Asian,2,False,False
+34,Percent!!RACE!!One race!!Asian!!Asian Indian,96,False,False
+35,Percent!!RACE!!One race!!Asian!!Chinese,244,False,False
+36,Percent!!RACE!!One race!!Asian!!Filipino,277,False,False
+37,Percent!!RACE!!One race!!Asian!!Japanese,157,False,False
+38,Percent!!RACE!!One race!!Asian!!Korean,100,False,False
+39,Percent!!RACE!!One race!!Asian!!Vietnamese,141,False,False
+40,Percent!!RACE!!One race!!Asian!!Other Asian,339,False,False
+41,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander,307,False,False
+42,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian,371,False,False
+43,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro,346,False,False
+44,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan,53,False,False
+45,Percent!!RACE!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander,373,False,False
+46,Percent!!RACE!!One race!!Some other race,49,False,False
+47,Percent!!RACE!!Two or more races!!White and Black or African American,250,False,False
+48,Percent!!RACE!!Two or more races!!White and American Indian and Alaska Native,133,False,False
+49,Percent!!RACE!!Two or more races!!White and Asian,266,False,False
+50,Percent!!RACE!!Two or more races!!Black or African American and American Indian and Alaska Native,167,False,False
+51,Percent!!RACE!!Race alone or in combination with one or more other races!!Total population,397,False,False
+52,Percent!!RACE!!White,337,False,False
+53,Percent!!RACE!!Black or African American,156,False,False
+54,Percent!!RACE!!American Indian and Alaska Native,336,False,False
+55,Percent!!RACE!!Asian,321,False,False
+56,Percent!!RACE!!Native Hawaiian and Other Pacific Islander,1,True,False
+57,Percent!!RACE!!Some other race,284,False,False
+58,Percent!!HISPANIC OR LATINO AND RACE!!Total population,397,False,False
+59,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race),187,False,False
+60,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Mexican,234,False,False
+61,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Puerto Rican,150,False,False
+62,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Cuban,41,False,False
+63,Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)!!Other Hispanic or Latino,253,False,False
+64,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino,374,False,False
+65,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!White alone,73,False,False
+66,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Black or African American alone,69,False,False
+67,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!American Indian and Alaska Native alone,329,False,False
+68,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Asian alone,397,False,False
+69,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone,377,False,False
+70,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Some other race alone,233,False,False
+71,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races,175,False,False
+72,Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races!!Two races including Some other race,342,False,False
+73,"Percent!!HISPANIC OR LATINO AND RACE!!Not Hispanic or Latino!!Two or more races!!Two races excluding Some other race, and Three or more races",303,False,False
+74,Estimate!!Total housing units,171,False,False
+75,Percent!!LANGUAGE SPOKEN AT HOME!!English only,197,False,False
+76,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English,365,False,False
+77,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Speak English less than ""very well""",146,False,False
+78,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Spanish,341,False,False
+79,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Spanish!!Speak English less than ""very well""",219,False,False
+80,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other Indo-European languages,194,False,False
+81,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other Indo-European languages!!Speak English less than ""very well""",218,False,False
+82,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Asian and Pacific Islander languages,277,False,False
+83,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Asian and Pacific Islander languages!!Speak English less than ""very well""",210,False,False
+84,Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other languages,121,False,False
+85,"Percent!!LANGUAGE SPOKEN AT HOME!!Language other than English!!Other languages!!Speak English less than ""very well""",196,False,False
+86,Estimate!!HOUSEHOLDS BY TYPE!!Total households,226,False,False
+87,Percent!!HOUSEHOLDS BY TYPE!!Total households,397,False,False
+88,Percent!!HOUSEHOLDS BY TYPE!!Family households (families),223,False,False
+89,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!With own children under 18 years,260,False,False
+90,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Married-couple family,109,False,False
+91,Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Married-couple family!!With own children under 18 years,213,False,False
+92,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Male householder, no wife present, family",188,False,False
+93,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Male householder, no wife present, family!!With own children under 18 years",306,False,False
+94,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Female householder, no husband present, family",191,False,False
+95,"Percent!!HOUSEHOLDS BY TYPE!!Family households (families)!!Female householder, no husband present, family!!With own children under 18 years",15,False,False
+96,Percent!!HOUSEHOLDS BY TYPE!!Nonfamily households,207,False,False
+97,Percent!!HOUSEHOLDS BY TYPE!!Nonfamily households!!Householder living alone,78,False,False
+98,Percent!!HOUSEHOLDS BY TYPE!!Nonfamily households!!Householder living alone!!65 years and over,149,False,False
+99,Percent!!HOUSEHOLDS BY TYPE!!Households with one or more people under 18 years,280,False,False
+100,Percent!!HOUSEHOLDS BY TYPE!!Households with one or more people 65 years and over,260,False,False
+101,Estimate!!HOUSEHOLDS BY TYPE!!Average household size,1,True,False
+102,Estimate!!HOUSEHOLDS BY TYPE!!Average family size,19,False,False
+103,Percent!!RELATIONSHIP!!Population in households,363,False,False
+104,Percent!!RELATIONSHIP!!Householder,205,False,False
+105,Percent!!RELATIONSHIP!!Spouse,114,False,False
+106,Percent!!RELATIONSHIP!!Child,107,False,False
+107,Percent!!RELATIONSHIP!!Other relatives,97,False,False
+108,Percent!!RELATIONSHIP!!Nonrelatives,59,False,False
+109,Percent!!RELATIONSHIP!!Nonrelatives!!Unmarried partner,224,False,False
+110,Percent!!MARITAL STATUS!!Males 15 years and over,285,False,False
+111,Percent!!MARITAL STATUS!!Never married,215,False,False
+112,"Percent!!MARITAL STATUS!!Now married, except separated",51,False,False
+113,Percent!!MARITAL STATUS!!Separated,248,False,False
+114,Percent!!MARITAL STATUS!!Widowed,317,False,False
+115,Percent!!MARITAL STATUS!!Divorced,29,False,False
+116,Percent!!MARITAL STATUS!!Females 15 years and over,144,False,False
+117,Percent!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months,136,False,False
+118,"Percent!!FERTILITY!!Unmarried women (widowed, divorced, and never married)",332,False,False
+119,Percent!!GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years,221,False,False
+120,Percent!!GRANDPARENTS!!Responsible for grandchildren,210,False,False
+121,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!Less than 1 year,199,False,False
+122,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!1 or 2 years,129,False,False
+123,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!3 or 4 years,334,False,False
+124,Percent!!GRANDPARENTS!!Responsible for grandchildren!!Years responsible for grandchildren!!5 or more years,1,True,False
+125,Percent!!GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years,1,True,False
+126,Percent!!GRANDPARENTS!!Who are female,107,False,False
+127,Percent!!GRANDPARENTS!!Who are married,315,False,False
+128,Percent!!SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school,160,False,False
+129,"Percent!!SCHOOL ENROLLMENT!!Nursery school, preschool",255,False,False
+130,Percent!!SCHOOL ENROLLMENT!!Kindergarten,146,False,False
+131,Percent!!SCHOOL ENROLLMENT!!Elementary school (grades 1-8),37,False,False
+132,Percent!!SCHOOL ENROLLMENT!!High school (grades 9-12),55,False,False
+133,Percent!!SCHOOL ENROLLMENT!!College or graduate school,311,False,False
+134,Percent!!EDUCATIONAL ATTAINMENT!!Population 25 years and over,215,False,False
+135,Percent!!EDUCATIONAL ATTAINMENT!!Less than 9th grade,296,False,False
+136,"Percent!!EDUCATIONAL ATTAINMENT!!9th to 12th grade, no diploma",203,False,False
+137,Percent!!EDUCATIONAL ATTAINMENT!!High school graduate (includes equivalency),275,False,False
+138,"Percent!!EDUCATIONAL ATTAINMENT!!Some college, no degree",244,False,False
+139,Percent!!EDUCATIONAL ATTAINMENT!!Associate's degree,30,False,False
+140,Percent!!EDUCATIONAL ATTAINMENT!!Bachelor's degree,154,False,False
+141,Percent!!EDUCATIONAL ATTAINMENT!!Graduate or professional degree,173,False,False
+142,Percent!!EDUCATIONAL ATTAINMENT!!Percent high school graduate or higher,319,False,False
+143,Percent!!EDUCATIONAL ATTAINMENT!!Percent bachelor's degree or higher,174,False,False
+144,Percent!!VETERAN STATUS!!Civilian population 18 years and over,350,False,False
+145,Percent!!VETERAN STATUS!!Civilian veterans,300,False,False
+146,Percent!!RESIDENCE 1 YEAR AGO!!Population 1 year and over,371,False,False
+147,Percent!!RESIDENCE 1 YEAR AGO!!Same house,138,False,False
+148,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.,324,False,False
+149,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Same county,120,False,False
+150,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county,258,False,False
+151,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county!!Same state,263,False,False
+152,Percent!!RESIDENCE 1 YEAR AGO!!Different house in the U.S.!!Different county!!Different state,288,False,False
+153,Percent!!RESIDENCE 1 YEAR AGO!!Abroad,171,False,False
+154,Percent!!PLACE OF BIRTH!!Total population,397,False,False
+155,Percent!!PLACE OF BIRTH!!Native,295,False,False
+156,Percent!!PLACE OF BIRTH!!Native!!Born in United States,290,False,False
+157,Percent!!PLACE OF BIRTH!!Native!!Born in United States!!State of residence,262,False,False
+158,Percent!!PLACE OF BIRTH!!Native!!Born in United States!!Different state,8,False,False
+159,"Percent!!PLACE OF BIRTH!!Native!!Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",239,False,False
+160,Percent!!PLACE OF BIRTH!!Foreign born,362,False,False
+161,Percent!!U.S. CITIZENSHIP STATUS!!Foreign-born population,118,False,False
+162,Percent!!U.S. CITIZENSHIP STATUS!!Naturalized U.S. citizen,143,False,False
+163,Percent!!U.S. CITIZENSHIP STATUS!!Not a U.S. citizen,126,False,False
+164,Percent!!YEAR OF ENTRY!!Population born outside the United States,339,False,False
+165,Percent!!YEAR OF ENTRY!!Native,44,False,False
+166,Percent!!YEAR OF ENTRY!!Entered 2000 or later,343,False,False
+167,Percent!!YEAR OF ENTRY!!Entered before 2000,331,False,False
+168,Percent!!YEAR OF ENTRY!!Foreign born,397,False,False
+169,"Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea",397,False,False
+170,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Europe,205,False,False
+171,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Asia,34,False,False
+172,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Africa,39,False,False
+173,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Oceania,326,False,False
+174,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Latin America,92,False,False
+175,Percent!!WORLD REGION OF BIRTH OF FOREIGN BORN!!Northern America,299,False,False
+176,Percent!!LANGUAGE SPOKEN AT HOME!!Population 5 years and over,371,False,False
+177,Percent!!HOUSING OCCUPANCY!!Total housing units,397,False,False
+178,Percent!!HOUSING OCCUPANCY!!Occupied housing units,1,True,False
+179,Percent!!HOUSING OCCUPANCY!!Vacant housing units,316,False,False
+180,Percent!!UNITS IN STRUCTURE!!Total housing units,397,False,False
+181,"Percent!!UNITS IN STRUCTURE!!1-unit, detached",116,False,False
+182,"Percent!!UNITS IN STRUCTURE!!1-unit, attached",328,False,False
+183,Percent!!UNITS IN STRUCTURE!!2 units,225,False,False
+184,Percent!!UNITS IN STRUCTURE!!3 or 4 units,217,False,False
+185,Percent!!UNITS IN STRUCTURE!!5 to 9 units,22,False,False
+186,Percent!!UNITS IN STRUCTURE!!10 to 19 units,1,True,False
+187,Percent!!UNITS IN STRUCTURE!!20 or more units,250,False,False
+188,Percent!!UNITS IN STRUCTURE!!Mobile home,337,False,False
+189,"Percent!!UNITS IN STRUCTURE!!Boat, RV, van, etc.",220,False,False
+190,Estimate!!YEAR STRUCTURE BUILT!!Total housing units,397,False,False
+191,Percent!!YEAR STRUCTURE BUILT!!Total housing units,397,False,False
+192,Percent!!YEAR STRUCTURE BUILT!!Built 2005 or later,127,False,False
+193,Percent!!YEAR STRUCTURE BUILT!!Built 2000 to 2004,104,False,False
+194,Percent!!YEAR STRUCTURE BUILT!!Built 1990 to 1999,34,False,False
+195,Percent!!YEAR STRUCTURE BUILT!!Built 1980 to 1989,37,False,False
+196,Percent!!YEAR STRUCTURE BUILT!!Built 1970 to 1979,148,False,False
+197,Percent!!YEAR STRUCTURE BUILT!!Built 1960 to 1969,18,False,False
+198,Percent!!YEAR STRUCTURE BUILT!!Built 1950 to 1959,94,False,False
+199,Percent!!YEAR STRUCTURE BUILT!!Built 1940 to 1949,39,False,False
+200,Percent!!YEAR STRUCTURE BUILT!!Built 1939 or earlier,1,True,False
+201,Percent!!ROOMS!!Total housing units,397,False,False
+202,Percent!!ROOMS!!1 room,12,False,False
+203,Percent!!ROOMS!!2 rooms,52,False,False
+204,Percent!!ROOMS!!3 rooms,236,False,False
+205,Percent!!ROOMS!!4 rooms,125,False,False
+206,Percent!!ROOMS!!5 rooms,30,False,False
+207,Percent!!ROOMS!!6 rooms,194,False,False
+208,Percent!!ROOMS!!7 rooms,324,False,False
+209,Percent!!ROOMS!!8 rooms,191,False,False
+210,Percent!!ROOMS!!9 rooms or more,297,False,False
+211,Percent!!BEDROOMS!!Total housing units,397,False,False
+212,Percent!!BEDROOMS!!No bedroom,184,False,False
+213,Percent!!BEDROOMS!!1 bedroom,303,False,False
+214,Percent!!BEDROOMS!!2 bedrooms,102,False,False
+215,Percent!!BEDROOMS!!3 bedrooms,186,False,False
+216,Percent!!BEDROOMS!!4 bedrooms,154,False,False
+217,Percent!!BEDROOMS!!5 or more bedrooms,151,False,False
+218,Percent!!HOUSING TENURE!!Occupied housing units,397,False,False
+219,Percent!!HOUSING TENURE!!Owner-occupied,1,True,False
+220,Percent!!HOUSING TENURE!!Renter-occupied,294,False,False
+221,Estimate!!HOUSING TENURE!!Average household size of owner-occupied unit,75,False,False
+222,Estimate!!HOUSING TENURE!!Average household size of renter-occupied unit,250,False,False
+223,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units,397,False,False
+224,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 2005 or later,318,False,False
+225,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 2000 to 2004,123,False,False
+226,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1990 to 1999,276,False,False
+227,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1980 to 1989,243,False,False
+228,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1970 to 1979,183,False,False
+229,Percent!!YEAR HOUSEHOLDER MOVED INTO UNIT!!Moved in 1969 or earlier,334,False,False
+230,Estimate!!VEHICLES AVAILABLE!!Occupied housing units,397,False,False
+231,Percent!!VEHICLES AVAILABLE!!Occupied housing units,397,False,False
+232,Percent!!VEHICLES AVAILABLE!!No vehicles available,232,False,False
+233,Percent!!VEHICLES AVAILABLE!!1 vehicle available,282,False,False
+234,Percent!!VEHICLES AVAILABLE!!2 vehicles available,181,False,False
+235,Percent!!VEHICLES AVAILABLE!!3 or more vehicles available,94,False,False
+236,Percent!!HOUSE HEATING FUEL!!Occupied housing units,397,False,False
+237,Percent!!HOUSE HEATING FUEL!!Utility gas,1,True,False
+238,"Percent!!HOUSE HEATING FUEL!!Bottled, tank, or LP gas",360,False,False
+239,Percent!!HOUSE HEATING FUEL!!Electricity,1,True,False
+240,"Percent!!HOUSE HEATING FUEL!!Fuel oil, kerosene, etc.",203,False,False
+241,Percent!!HOUSE HEATING FUEL!!Coal or coke,141,False,False
+242,Percent!!HOUSE HEATING FUEL!!Wood,375,False,False
+243,Percent!!HOUSE HEATING FUEL!!Solar energy,273,False,False
+244,Percent!!HOUSE HEATING FUEL!!Other fuel,266,False,False
+245,Percent!!HOUSE HEATING FUEL!!No fuel used,36,False,False
+246,Percent!!SELECTED CHARACTERISTICS!!Occupied housing units,397,False,False
+247,Percent!!SELECTED CHARACTERISTICS!!Lacking complete plumbing facilities,4,False,False
+248,Percent!!SELECTED CHARACTERISTICS!!Lacking complete kitchen facilities,1,True,False
+249,Percent!!SELECTED CHARACTERISTICS!!No telephone service available,78,False,False
+250,Percent!!OCCUPANTS PER ROOM!!Occupied housing units,397,False,False
+251,Percent!!OCCUPANTS PER ROOM!!1.00 or less,1,True,False
+252,Percent!!OCCUPANTS PER ROOM!!1.01 to 1.50,78,False,False
+253,Percent!!OCCUPANTS PER ROOM!!1.51 or more,308,False,False
+254,Estimate!!VALUE!!Owner-occupied units,160,False,False
+255,Percent!!VALUE!!Owner-occupied units,397,False,False
+256,"Percent!!VALUE!!Less than $50,000",166,False,False
+257,"Percent!!VALUE!!$50,000 to $99,999",356,False,False
+258,"Percent!!VALUE!!$100,000 to $149,999",70,False,False
+259,"Percent!!VALUE!!$150,000 to $199,999",208,False,False
+260,"Percent!!VALUE!!$200,000 to $299,999",231,False,False
+261,"Percent!!VALUE!!$300,000 to $499,999",83,False,False
+262,"Percent!!VALUE!!$500,000 to $999,999",240,False,False
+263,"Percent!!VALUE!!$1,000,000 or more",310,False,False
+264,Estimate!!VALUE!!Median (dollars),313,False,False
+265,Estimate!!MORTGAGE STATUS!!Owner-occupied units,397,False,False
+266,Percent!!MORTGAGE STATUS!!Owner-occupied units,397,False,False
+267,Percent!!MORTGAGE STATUS!!Housing units with a mortgage,104,False,False
+268,Percent!!MORTGAGE STATUS!!Housing units without a mortgage,349,False,False
+269,Estimate!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage,287,False,False
+270,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage,397,False,False
+271,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Less than $300,109,False,False
+272,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$300 to $499,1,True,False
+273,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$500 to $699,333,False,False
+274,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$700 to $999,152,False,False
+275,"Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$1,000 to $1,499",200,False,False
+276,"Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$1,500 to $1,999",57,False,False
+277,"Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$2,000 or more",238,False,False
+278,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage,241,False,False
+279,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!Less than $100,357,False,False
+280,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$100 to $199,344,False,False
+281,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$200 to $299,352,False,False
+282,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$300 to $399,1,True,False
+283,Percent!!SELECTED MONTHLY OWNER COSTS (SMOC)!!$400 or more,194,False,False
+284,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed),367,False,False
+285,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed),397,False,False
+286,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 20.0 percent,259,False,False
+287,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 20.0 percent,1,True,False
+288,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!20.0 to 24.9 percent,60,False,False
+289,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!20.0 to 24.9 percent,169,False,False
+290,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!25.0 to 29.9 percent,64,False,False
+291,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!25.0 to 29.9 percent,128,False,False
+292,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!30.0 to 34.9 percent,60,False,False
+293,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!30.0 to 34.9 percent,208,False,False
+294,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!35.0 percent or more,118,False,False
+295,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!35.0 percent or more,121,False,False
+296,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Not computed,247,False,False
+297,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed),305,False,False
+298,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed),397,False,False
+299,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 10.0 percent,162,False,False
+300,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Less than 10.0 percent,309,False,False
+301,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!10.0 to 14.9 percent,101,False,False
+302,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!10.0 to 14.9 percent,185,False,False
+303,Estimate!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!15.0 to 19.9 percent,152,False,False
+304,Percent!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!15.0 to 19.9 percent,115,False,False
+305,Estimate!!GROSS RENT!!Occupied units paying rent,228,False,False
+306,Percent!!GROSS RENT!!Occupied units paying rent,397,False,False
+307,Percent!!GROSS RENT!!Less than $200,4,False,False
+308,Percent!!GROSS RENT!!$200 to $299,348,False,False
+309,Percent!!GROSS RENT!!$300 to $499,26,False,False
+310,Percent!!GROSS RENT!!$500 to $749,13,False,False
+311,Percent!!GROSS RENT!!$750 to $999,118,False,False
+312,"Percent!!GROSS RENT!!$1,000 to $1,499",279,False,False
+313,"Percent!!GROSS RENT!!$1,500 or more",1,True,False
+314,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed),353,False,False
+315,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed),397,False,False
+316,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Less than 15.0 percent,283,False,False
+317,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Less than 15.0 percent,330,False,False
+318,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!15.0 to 19.9 percent,189,False,False
+319,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!15.0 to 19.9 percent,102,False,False
+320,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!20.0 to 24.9 percent,289,False,False
+321,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!20.0 to 24.9 percent,250,False,False
+322,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!25.0 to 29.9 percent,292,False,False
+323,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!25.0 to 29.9 percent,24,False,False
+324,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!30.0 to 34.9 percent,226,False,False
+325,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!30.0 to 34.9 percent,176,False,False
+326,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!35.0 percent or more,191,False,False
+327,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!35.0 percent or more,170,False,False
+328,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,264,False,False
+329,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,366,False,False
+330,Percent!!EMPLOYMENT STATUS!!In labor force,180,False,False
+331,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force,369,False,False
+332,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Employed,271,False,False
+333,Percent!!EMPLOYMENT STATUS!!In labor force!!Civilian labor force!!Unemployed,256,False,False
+334,Percent!!EMPLOYMENT STATUS!!In labor force!!Armed Forces,359,False,False
+335,Percent!!EMPLOYMENT STATUS!!Not in labor force,320,False,False
+336,Percent!!EMPLOYMENT STATUS!!Civilian labor force,200,False,False
+337,Percent!!EMPLOYMENT STATUS!!Percent Unemployed,274,False,False
+338,Percent!!EMPLOYMENT STATUS!!Females 16 years and over,375,False,False
+339,Percent!!EMPLOYMENT STATUS!!Own children under 6 years,323,False,False
+340,Percent!!EMPLOYMENT STATUS!!All parents in family in labor force,113,False,False
+341,Percent!!EMPLOYMENT STATUS!!Own children 6 to 17 years,130,False,False
+342,Percent!!COMMUTING TO WORK!!Workers 16 years and over,285,False,False
+343,"Percent!!COMMUTING TO WORK!!Car, truck, or van -- drove alone",178,False,False
+344,"Percent!!COMMUTING TO WORK!!Car, truck, or van -- carpooled",138,False,False
+345,Percent!!COMMUTING TO WORK!!Public transportation (excluding taxicab),1,True,False
+346,Percent!!COMMUTING TO WORK!!Walked,1,True,False
+347,Percent!!COMMUTING TO WORK!!Other means,68,False,False
+348,Percent!!COMMUTING TO WORK!!Worked at home,92,False,False
+349,Percent!!OCCUPATION!!Civilian employed population 16 years and over,368,False,False
+350,"Percent!!OCCUPATION!!Management, business, science, and arts occupations",222,False,False
+351,Percent!!OCCUPATION!!Service occupations,269,False,False
+352,Percent!!OCCUPATION!!Sales and office occupations,44,False,False
+353,"Percent!!OCCUPATION!!Natural resources, construction, and maintenance occupations",236,False,False
+354,"Percent!!OCCUPATION!!Production, transportation, and material moving occupations",86,False,False
+355,Percent!!INDUSTRY!!Civilian employed population 16 years and over,397,False,False
+356,"Percent!!INDUSTRY!!Agriculture, forestry, fishing and hunting, and mining",66,False,False
+357,Percent!!INDUSTRY!!Construction,1,True,False
+358,Percent!!INDUSTRY!!Manufacturing,181,False,False
+359,Percent!!INDUSTRY!!Wholesale trade,203,False,False
+360,Percent!!INDUSTRY!!Retail trade,327,False,False
+361,"Percent!!INDUSTRY!!Transportation and warehousing, and utilities",228,False,False
+362,Percent!!INDUSTRY!!Information,268,False,False
+363,"Percent!!INDUSTRY!!Finance and insurance, and real estate and rental and leasing",75,False,False
+364,"Percent!!INDUSTRY!!Professional, scientific, and management, and administrative and waste management services",162,False,False
+365,"Percent!!INDUSTRY!!Educational services, and health care and social assistance",176,False,False
+366,"Percent!!INDUSTRY!!Arts, entertainment, and recreation, and accommodation and food services",4,False,False
+367,"Percent!!INDUSTRY!!Other services, except public administration",85,False,False
+368,Percent!!INDUSTRY!!Public administration,257,False,False
+369,Percent!!CLASS OF WORKER!!Civilian employed population 16 years and over,397,False,False
+370,Percent!!CLASS OF WORKER!!Private wage and salary workers,157,False,False
+371,Percent!!CLASS OF WORKER!!Government workers,270,False,False
+372,Percent!!CLASS OF WORKER!!Self-employed in own not incorporated business workers,281,False,False
+373,Percent!!CLASS OF WORKER!!Unpaid family workers,168,False,False
+374,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Total households,397,False,False
+375,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Less than $10,000",47,False,False
+376,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$10,000 to $14,999",164,False,False
+377,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$15,000 to $24,999",213,False,False
+378,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$25,000 to $34,999",34,False,False
+379,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$35,000 to $49,999",141,False,False
+380,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$50,000 to $74,999",179,False,False
+381,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$75,000 to $99,999",71,False,False
+382,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$100,000 to $149,999",137,False,False
+383,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$150,000 to $199,999",241,False,False
+384,"Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!$200,000 or more",54,False,False
+385,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median household income (dollars),264,False,False
+386,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean household income (dollars),347,False,False
+387,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With earnings,254,False,False
+388,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Social Security,321,False,False
+389,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With retirement income,298,False,False
+390,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Supplemental Security Income,293,False,False
+391,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With cash public assistance income,301,False,False
+392,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!With Food Stamp/SNAP benefits in the past 12 months,272,False,False
+393,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Families,236,False,False
+394,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Families,397,False,False
+395,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median family income (dollars),197,False,False
+396,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean family income (dollars),165,False,False
+397,Percent!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households,82,False,False
+398,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median nonfamily income (dollars),132,False,False
+399,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Mean nonfamily income (dollars),41,False,False
+400,Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for workers (dollars),49,False,False
+401,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for male full-time, year-round workers (dollars)",88,False,False
+402,"Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for female full-time, year-round workers (dollars)",73,False,False
+403,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families,230,False,False
+404,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children under 18 years,146,False,False
+405,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children under 18 years!!With related children under 5 years only,361,False,False
+406,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families,27,False,False
+407,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families!!With related children under 18 years,354,False,False
+408,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Married couple families!!With related children under 18 years!!With related children under 5 years only,358,False,False
+409,"Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present",246,False,False
+410,"Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present!!With related children under 18 years",314,False,False
+411,"Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Families with female householder, no husband present!!With related children under 18 years!!With related children under 5 years only",355,False,False
+412,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people,135,False,False
+413,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years,350,False,False
+414,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years,364,False,False
+415,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years!!Related children under 5 years,123,False,False
+416,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Under 18 years!!Related children under 18 years!!Related children 5 to 17 years,32,False,False
+417,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over,160,False,False
+418,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over!!18 to 64 years,130,False,False
+419,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!18 years and over!!65 years and over,291,False,False
+420,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!People in families,303,False,False
+421,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,112,False,False
+422,AREALANDPT,212,False,False
+423,ELECTRICITY ACCOUNTS,25,False,False
+424,ZERO KWH ACCOUNTS,17,False,False
+425,GAS ACCOUNTS,1,True,False
+426,KWH TOTAL SQFT,1,True,False
+427,THERMS TOTAL SQFT,83,False,False
+428,TOTAL POPULATION,22,False,False
+429,TOTAL UNITS,62,False,False
+430,AVERAGE STORIES,8,False,False
+431,AVERAGE BUILDING AGE,90,False,False
+432,AVERAGE HOUSESIZE,10,False,False
+433,OCCUPIED UNITS,99,False,False
+434,OCCUPIED UNITS PERCENTAGE,6,False,False
+435,RENTER-OCCUPIED HOUSING UNITS,1,True,False
+436,RENTER-OCCUPIED HOUSING PERCENTAGE,88,False,False
+437,OCCUPIED HOUSING UNITS,397,False,False
