@@ -313,19 +313,21 @@ df_filtered[columns_to_convert] = df_filtered[columns_to_convert].astype(str)
 id_df = df_filtered[id_cols]
 
 
-# In[41]:
+# In[76]:
 
 
-df_filtered.head()
+df_filtered.columns
 
 
-# In[42]:
+# In[92]:
 
 
 X = df_filtered.drop(columns=['KWH', 'THERM', 'Geography','CENSUS BLOCK','Estimate!!HOUSEHOLDS BY TYPE!!Average household size',
                               'Percent!!HOUSING OCCUPANCY!!Occupied housing units',
                               'Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median earnings for workers (dollars)',
-                              'THERMS TOTAL SQFT','KWH TOTAL SQFT'])
+                              'THERMS TOTAL SQFT','KWH TOTAL SQFT','Estimate!!SEX AND AGE!!Median age (years)',
+                              'Percent!!COMMUTING TO WORK!!Workers 16 years and over','sqft_h_unit_kwh', 'sqft_h_unit_therm',
+                             'kwh_per_unit','therm_per_unit'])
 y_kwh = df_filtered['kwh_per_unit']
 y_therm = df_filtered['therm_per_unit']
 
@@ -334,13 +336,13 @@ X_train, X_test, y_kwh_train, y_kwh_test = train_test_split(X, y_kwh, test_size=
 X_train, X_test, y_therm_train, y_therm_test = train_test_split(X, y_therm, test_size=0.2, random_state=666)
 
 
-# In[43]:
+# In[94]:
 
 
 categorical_columns = X_train.select_dtypes(include=['category', 'object']).columns.tolist()
 
 
-# In[44]:
+# In[96]:
 
 
 # Initialize Target Encoders
@@ -373,7 +375,7 @@ X_test_encoded_therm[categorical_columns] = target_encoder_therm.transform(
 
 # ## Feature Selection (Boruta)
 
-# In[47]:
+# In[98]:
 
 
 # Initialize XGBoost regressor
@@ -404,7 +406,7 @@ boruta_therm_results.to_csv('boruta_therm_results.csv')
 
 
 
-# In[48]:
+# In[100]:
 
 
 # Transform the training sets to select the important features
@@ -416,7 +418,20 @@ X_test_selected_kwh = X_test_encoded_kwh.iloc[:, boruta_kwh.support_]
 X_test_selected_therm = X_test_encoded_therm.iloc[:, boruta_therm.support_]
 
 
-# In[50]:
+# In[101]:
+
+
+X_train_selected_therm.columns
+
+
+# In[107]:
+
+
+X_train_selected_kwh.to_csv('X_train_selected_kwh.csv')
+X_train_selected_therm.to_csv('X_train_selected_therm.csv')
+
+
+# In[109]:
 
 
 xgb_gpu_model = XGBRegressor(tree_method = "hist", device = "cuda")
@@ -434,13 +449,13 @@ param_grid = {
 # Initialize GridSearchCV for KWH
 grid_search_kwh = GridSearchCV(estimator=xgb_gpu_model, param_grid=param_grid, 
                                cv=5, scoring='neg_mean_squared_error',
-                               verbose= 2, n_jobs=-1)
+                               verbose= 2, n_jobs=1)
 grid_search_kwh.fit(X_train_selected_kwh, y_kwh_train)
 
 # Initialize GridSearchCV for THERM
 grid_search_therm = GridSearchCV(estimator=xgb_gpu_model, param_grid=param_grid, 
                                  cv=5, scoring='neg_mean_squared_error', 
-                                 verbose=2, n_jobs=-1)
+                                 verbose=2, n_jobs=1)
 grid_search_therm.fit(X_train_selected_therm, y_therm_train)
 
 # Best models
@@ -455,7 +470,7 @@ print("KWH Model Test Score:", best_model_kwh.score(X_test_selected_kwh, y_kwh_t
 print("THERM Model Test Score:", best_model_therm.score(X_test_selected_therm, y_therm_test))
 
 
-# In[66]:
+# In[111]:
 
 
 # Save the best model for KWH
@@ -469,10 +484,16 @@ with open(filename_therm, 'wb') as file:
     pickle.dump(best_model_therm, file)
 
 
-# In[57]:
+# In[113]:
 
 
 kwh_cv_results_df = pd.DataFrame(grid_search_kwh.cv_results_)
+
+
+# In[115]:
+
+
+therm_cv_results_df = pd.DataFrame(grid_search_therm.cv_results_)
 
 
 # In[61]:
