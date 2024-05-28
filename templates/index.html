@@ -4,42 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Analysis Web App</title>
+    <style>
+        body {
+            background-image: url('/static/thermal.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1, p {
+            color: #FFD700;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        select, input {
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            width: calc(100% - 22px); /* Adjust width to fit within the form */
+        }
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #FFD700;
+            border: none;
+            color: black;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #FFC300;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Data Analysis Web App</h1>
-    <p>Please enter the data below, and the system will analyze it and display the results on a map.</p>
+    <div class="container">
+        <h1>Welcome to the Thermal Sustainability Data Analysis Web App</h1>
+        <p>Please pick and input 5 characteristics to predict your KWH and Thermal.</p>
+        
+        <!-- Form for KWH prediction -->
+        <form id="dataForm1">
+            {% for feature in features_kwh %}
+            <input type="text" name="{{ feature }}" placeholder="{{ feature }}" required>
+            {% endfor %}
+            <button type="submit">Analyze KWH</button>
+        </form>
+        
+        <!-- Form for Thermal prediction -->
+        <form id="dataForm2">
+            {% for feature in features_thermal %}
+            <input type="text" name="{{ feature }}" placeholder="{{ feature }}" required>
+            {% endfor %}
+            <button type="submit">Analyze Thermal</button>
+        </form>
+        
+        <!-- Div to display the result -->
+        <div id="result" class="result"></div>
+        <div id="error" class="error"></div>
+    </div>
     
-    <!-- Form for data input -->
-    <form id="dataForm" action="/predict" method="post">
-        <!-- Add form fields for each feature the model requires -->
-        <input type="text" name="feature1" placeholder="Feature 1" required>
-        <input type="text" name="feature2" placeholder="Feature 2" required>
-        <!-- Add more input fields as needed -->
-        <button type="submit">Analyze</button>
-    </form>
-    
-    <!-- Div to display the map -->
-    <div id="map" style="height: 400px;"></div>
-    
-    <!-- Script to handle the form submission and display the map -->
+    <!-- Script to handle the form submission and display the result -->
     <script>
-        document.getElementById('dataForm').onsubmit = function(event) {
+        document.getElementById('dataForm1').onsubmit = function(event) {
             event.preventDefault();
             var formData = new FormData(this);
             
-            fetch('/predict', {
+            fetch('/predict1', {
                 method: 'POST',
                 body: formData
             })
-            .then(response => response.text())
-            .then(html => {
-                // Display the map returned from the server
-                document.getElementById('map').innerHTML = html;
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('error').innerText = data.error;
+                    document.getElementById('result').innerHTML = '';
+                } else {
+                    document.getElementById('result').innerHTML = `<h2>Prediction Result for KWH:</h2><p>Your predicted value is: ${data.prediction}</p>`;
+                    document.getElementById('error').innerText = '';
+                }
             })
             .catch(error => {
                 console.error('Error:', error);
+                document.getElementById('error').innerText = 'An error occurred. Please try again.';
             });
         };
-    </script>
-</body>
-</html>
+
+        document.getElementById('dataForm2').onsubmit = function(event) {
+            event.preventDefault();
+            var formData = new FormData(this);
+            
+            fetch('/predict2', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('error').innerText = data.error;
+                    document.getElementById('result').innerHTML = '';
+                } else {
+                    document.getElementById('result').innerHTML = `<h2>Prediction Result for Thermal:</h2><p>Your predicted value is: ${data.prediction}</p>`;
+                    document.getElementById('error').innerText = '';
+                }
+            })
+            .catch(error => {
+                console.error
