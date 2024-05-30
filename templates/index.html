@@ -58,22 +58,134 @@
 <body>
     <div class="container">
         <h1>Welcome to the Thermal Sustainability Data Analysis Web App</h1>
-        <p>Please pick and input 5 characteristics to predict your KWH and Thermal.</p>
+        <p>Please input characteristics to predict your KWH and Thermal.</p>
         
-        <!-- Form for KWH prediction -->
-        <form id="dataForm1">
-            {% for feature in features_kwh %}
-            <input type="text" name="{{ feature }}" placeholder="{{ feature }}" required>
+        <!-- Combined Form for prediction -->
+
+        <form id="predictionForm" method="POST" action="/predict">
+            {% for feature in features %}
+            <div>
+                {% if feature == 'Commute Type' %}
+                <label for="{{ feature }}">{{ feature }}</label>
+                <select id="{{ feature }}" name="{{ feature }}">
+                    <option value="">Select Type</option>
+                    <option value="1">Drive Alone</option> 
+                    <option value="2">Drive Carpool</option> 
+                    <option value="3">Public Transportation</option> 
+                    <option value="4">Walked</option> 
+                    <option value="5">Work From Home</option>
+                </select>  
+
+                {% elif feature == 'Housing Type' %}
+                <label for="{{ feature }}">{{ feature }}</label>
+                <select id="{{ feature }}" name="{{ feature }}">
+                    <option value="">Select Type</option>
+                    <option value="1">Single Family Home</option> 
+                    <option value="2">Large Multi-Family (&gt; units)</option> 
+                    <option value="3">Small Multi-Family (&lt; units)</option> 
+                </select>  
+
+                {% elif feature == 'Heating' %}
+                <label for="{{ feature }}">{{ feature }}</label>
+                <select id="{{ feature }}" name="{{ feature }}">
+                    <option value="">Select Heating</option>
+                    <option value="1">Electricity</option> 
+                    <option value="2">Utility Gas</option> 
+                    <option value="3">Bottled, tank, or LP Gas</option> 
+                    <option value="4">Fuel oil, kerosene, etc.</option> 
+                </select>  
+
+                {% elif feature == 'Community' %}
+                <label for="{{ feature }}">{{ feature }}</label>
+                <select id="{{ feature }}" name="{{ feature }}"> 
+                    <option value="">Select Community</option>
+                    <option value="1">'Albany Park'</option>
+                    <option value="2">'Archer Heights'</option>
+                    <option value="3">'Armour Square'</option>
+                    <option value="4">'Ashburn'</option>
+                    <option value="5">'Auburn Gresham'</option>
+                    <option value="6">'Austin'</option>
+                    <option value="7">'Avalon Park'</option>
+                    <option value="8">'Avondale'</option>
+                    <option value="9">'Belmont Cragin'</option>
+                    <option value="10">'Beverly'</option>
+                    <option value="11">'Bridgeport'</option>
+                    <option value="12">'Brighton Park'</option>
+                    <option value="13">'Burnside'</option>
+                    <option value="14">'Calumet Heights'</option>
+                    <option value="15">'Chatham'</option>
+                    <option value="16">'Chicago Lawn'</option>
+                    <option value="17">'Clearing'</option>
+                    <option value="18">'Douglas'</option>
+                    <option value="19">'Dunning'</option>
+                    <option value="20">'East Garfield Park'</option>
+                    <option value="21">'East Side'</option>
+                    <option value="22">'Edgewater'</option>
+                    <option value="23">'Edison Park'</option>
+                    <option value="24">'Englewood'</option>
+                    <option value="25">'Forest Glen'</option>
+                    <option value="26">'Fuller Park'</option>
+                    <option value="27">'Gage Park'</option>
+                    <option value="28">'Garfield Ridge'</option>
+                    <option value="29">'Grand Boulevard'</option>
+                    <option value="30">'Greater Grand Crossing'</option>
+                    <option value="31">'Hegewisch'</option>
+                    <option value="32">'Hermosa'</option>
+                    <option value="33">'Humboldt Park'</option>
+                    <option value="34">'Hyde Park'</option>
+                    <option value="35">'Irving Park'</option>
+                    <option value="36">'Jefferson Park'</option>
+                    <option value="37">'Kenwood'</option>
+                    <option value="38">'Lakeview'</option>
+                    <option value="39">'Lincoln Park'</option>
+                    <option value="40">'Lincoln Square'</option>
+                    <option value="41">'Logan Square'</option>
+                    <option value="42">'Loop'</option>
+                    <option value="43">'Lower West Side'</option>
+                    <option value="44">'McKinley Park'</option>
+                    <option value="45">'Montclare'</option>
+                    <option value="46">'Morgan Park'</option>
+                    <option value="47">'Mount Greenwood'</option>
+                    <option value="48">'Near North Side'</option>
+                    <option value="49">'Near South Side'</option>
+                    <option value="50">'Near West Side'</option>
+                    <option value="51">'New City'</option>
+                    <option value="52">'North Center'</option>
+                    <option value="53">'North Lawndale'</option>
+                    <option value="54">'North Park'</option>
+                    <option value="55">'Norwood Park'</option>
+                    <option value="56">"O'Hare"</option>
+                    <option value="57">'Oakland'</option>
+                    <option value="58">'Portage Park'</option>
+                    <option value="59">'Pullman'</option>
+                    <option value="60">'Riverdale'</option>
+                    <option value="61">'Rogers Park'</option>
+                    <option value="62">'Roseland'</option>
+                    <option value="63">'South Chicago'</option>
+                    <option value="64">'South Deering'</option>
+                    <option value="65">'South Lawndale'</option>
+                    <option value="66">'South Shore'</option>
+                    <option value="67">'Uptown'</option>
+                    <option value="68">'Washington Heights'</option>
+                    <option value="69">'Washington Park'</option>
+                    <option value="70">'West Elsdon'</option>
+                    <option value="71">'West Englewood'</option>
+                    <option value="72">'West Garfield Park'</option>
+                    <option value="73">'West Lawn'</option>
+                    <option value="74">'West Pullman'</option>
+                    <option value="75">'West Ridge'</option>
+                    <option value="76">'West Town'</option>
+                    <option value="77">'Woodlawn'</option>
+                    
+                </select> 
+
+                {% else %}
+                <label for="{{ feature }}">{{ feature }}</label>
+                <input type="text" id="{{ feature }}" name="{{ feature }}" required>
+                {% endif %}
+            </div>
             {% endfor %}
-            <button type="submit">Analyze KWH</button>
-        </form>
-        
-        <!-- Form for Thermal prediction -->
-        <form id="dataForm2">
-            {% for feature in features_thermal %}
-            <input type="text" name="{{ feature }}" placeholder="{{ feature }}" required>
-            {% endfor %}
-            <button type="submit">Analyze Thermal</button>
+            <button type="submit">Predict KWH and Thermal</button>
         </form>
         
         <!-- Div to display the result -->
@@ -83,11 +195,11 @@
     
     <!-- Script to handle the form submission and display the result -->
     <script>
-        document.getElementById('dataForm1').onsubmit = function(event) {
+        document.getElementById('combinedForm').onsubmit = function(event) {
             event.preventDefault();
             var formData = new FormData(this);
             
-            fetch('/predict1', {
+            fetch('/predict', {
                 method: 'POST',
                 body: formData
             })
@@ -97,7 +209,7 @@
                     document.getElementById('error').innerText = data.error;
                     document.getElementById('result').innerHTML = '';
                 } else {
-                    document.getElementById('result').innerHTML = `<h2>Prediction Result for KWH:</h2><p>Your predicted value is: ${data.prediction}</p>`;
+                    document.getElementById('result').innerHTML = `<h2>Prediction Results:</h2><p>KWH predicted value: ${data.prediction_kwh}</p><p>Thermal predicted value: ${data.prediction_thermal}</p>`;
                     document.getElementById('error').innerText = '';
                 }
             })
@@ -106,24 +218,5 @@
                 document.getElementById('error').innerText = 'An error occurred. Please try again.';
             });
         };
-
-        document.getElementById('dataForm2').onsubmit = function(event) {
-            event.preventDefault();
-            var formData = new FormData(this);
-            
-            fetch('/predict2', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.error) {
-                    document.getElementById('error').innerText = data.error;
-                    document.getElementById('result').innerHTML = '';
-                } else {
-                    document.getElementById('result').innerHTML = `<h2>Prediction Result for Thermal:</h2><p>Your predicted value is: ${data.prediction}</p>`;
-                    document.getElementById('error').innerText = '';
-                }
-            })
-            .catch(error => {
-                console.error
+    </script>
+</body>

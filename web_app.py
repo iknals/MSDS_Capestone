@@ -7,18 +7,23 @@ app = Flask(__name__)
 model_kwh = joblib.load('xgboost_model_kwh.pkl')  # Load your pre-trained model 
 model_thermal = joblib.load('xgboost_model_therm.pkl') 
 
-# Load your dataset here
-dataset = pd.read_csv('acs5yr2010_cook(in).csv')
-
 @app.route('/')
 def index():
-    # Pass the feature lists to the template
-    features_kwh = ['Percent!!SEX AND AGE!!21 years and over', 'Percent!!RACE!!Native Hawaiian and Other Pacific Islander']  # Add all your features here
-    features_thermal = ['Percent!!SEX AND AGE!!15 to 19 years', 'Estimate!!SEX AND AGE!!Median age (years)']  # Add all your features here
-    return render_template('index.html', features_kwh=features_kwh, features_thermal=features_thermal)
+    # Shared features between KWH and Thermal
+    # Shared features between KWH and Thermal
+    shared_features = ['Household Size','Adults In Household','Commute Type','Annual Household Income',	'Housing Type',	'Home Square Footage',	'Building Age (Years)',	'Number Of Stories	Heating', 'Community']
+    # Unique features for KWH and Thermal
+    unique_features_kwh = []  # Add any unique features for KWH here
+    unique_features_thermal = []  # Add any unique features for Thermal here
+    # Combine shared and unique features for KWH and Thermal
+    features_kwh = shared_features + unique_features_kwh
+    features_thermal = shared_features + unique_features_thermal
+    # Remove duplicates and pass to the template
+    all_features = list(dict.fromkeys(features_kwh + features_thermal))
+    return render_template('index.html', features=all_features)
 
-@app.route('/predict1', methods=['POST'])
-def predict_kwh():
+@app.route('/predict', methods=['POST'])
+def predict():
     data = request.form.to_dict()
     numeric_data = {}
     for key in data.keys():
@@ -29,33 +34,12 @@ def predict_kwh():
 
     df = pd.DataFrame([numeric_data])
 
-    # Fill missing features with mean values from the dataset
-    for column in dataset.columns:
-        if column not in df.columns:
-            df[column] = dataset[column].mean()
+    # Predict KWH and Thermal
+    prediction_kwh = model_kwh.predict(df)[0]
+    prediction_thermal = model_thermal.predict(df)[0]
 
-    prediction = model_kwh.predict(df)
-    return jsonify({'prediction': prediction[0]})
-
-@app.route('/predict2', methods=['POST'])
-def predict_therm():
-    data = request.form.to_dict()
-    numeric_data = {}
-    for key in data.keys():
-        try:
-            numeric_data[key] = float(data[key])
-        except ValueError:
-            return jsonify({'error': f'Invalid input for {key}, please enter numeric values.'})
-
-    df = pd.DataFrame([numeric_data])
-
-    # Fill missing features with mean values from the dataset
-    for column in dataset.columns:
-        if column not in df.columns:
-            df[column] = dataset[column].mean()
-
-    prediction = model_thermal.predict(df)
-    return jsonify({'prediction': prediction[0]})
+    # Return predictions as JSON
+    return jsonify({'prediction_kwh': prediction_kwh, 'prediction_thermal': prediction_thermal})
 
 if __name__ == '__main__':
     app.run(debug=True)
