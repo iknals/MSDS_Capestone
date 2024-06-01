@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
+import warnings
+warnings.filterwarnings("ignore", message="Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated")
+warnings.filterwarnings("ignore", message="errors='ignore' is deprecated")
 
 # In[481]:
 
@@ -9,7 +12,10 @@ import joblib
 import pandas as pd
 import numpy as np
 import seaborn as sns
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
+import plotly.express as px 
+from plotly.utils import PlotlyJSONEncoder
+import json
 
 
 # In[461]:
@@ -18,7 +24,9 @@ import matplotlib.pyplot as plt
 app = Flask(__name__)
 model_kwh = joblib.load('xgboost_model_kwh.pkl')  # Load your pre-trained model 
 model_thermal = joblib.load('xgboost_model_therm.pkl') 
-
+df_kwh = pd.DataFrame() 
+df_therm = pd.DataFrame() 
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 # In[181]:
 
@@ -366,189 +374,137 @@ therm_cols = ['Percent!!SEX AND AGE!!21 years and over',
 
 
 # In[10]:
+# Shared features between KWH and Thermal
+# Shared features between KWH and Thermal
+shared_features = ['Household Size','Adults In Household','Commute Type','Annual Household Income', 'Housing Type', 'Home Square Footage', 'Building Age (Years)', 'Number Of Stories', 'Heating', 'Community']
+# Unique features for KWH and Thermal
+unique_features_kwh = []  # Add any unique features for KWH here
+unique_features_thermal = []  # Add any unique features for Thermal here
+# Combine shared and unique features for KWH and Thermal
+features_kwh = shared_features + unique_features_kwh
+features_thermal = shared_features + unique_features_thermal
 
+def map_input_data(data):
+    # mapped_data = {
+    #     'Household Size': int(data.get('Household Size')),
+    #     'Adults In Household': int(data.get('Adults In Household')),
+    #     'Commute Type': commute_mapping[int(data.get('Commute Type'))],
+    #     'Annual Household Income': int(data.get('Annual Household Income')),
+    #     'Housing Type': housing_type_mapping[int(data.get('Housing Type'))],
+    #     'Home Square Footage': int(data.get('Home Square Footage')),
+    #     'Building Age (Years)': int(data.get('Building Age (Years)')),
+    #     'Number Of Stories': int(data.get('Number Of Stories')),
+    #     'Heating': heating_mapping[int(data.get('Heating'))],
+    #     'Community': community_mapping[int(data.get('Community'))]
+    # }
+
+    # df = pd.DataFrame([mapped_data])
+    # df['Percent!!SEX AND AGE!!21 years and over'] = df['Adults In Household'] / df['Household Size'] * 100
+
+    # combined_cols = list(set(kwh_cols + therm_cols))
+    # df2 = pd.DataFrame(columns=combined_cols) 
+    
+    shared_features = ['Household Size','Adults In Household','Commute Type','Annual Household Income', 'Housing Type', 'Home Square Footage', 'Building Age (Years)', 'Number Of Stories', 'Heating', 'Community']
+    df = pd.DataFrame(data, columns=shared_features)
+    df['Percent!!SEX AND AGE!!21 years and over'] = df['Adults In Household']/df['Household Size']*100
+    df['Housing Type'] = df['Housing Type'].map(housing_type_mapping)
+    df['Community'] = df['Community'].map(community_mapping) 
+    combined_cols = list(set(kwh_cols + therm_cols))
+    df2 = pd.DataFrame(columns=combined_cols)
+
+    column_mapping = {
+        'Percent!!SEX AND AGE!!21 years and over': 'Percent!!SEX AND AGE!!21 years and over',
+        'Annual Household Income': 'Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median household income (dollars)',
+        'Building Age (Years)': 'AVERAGE BUILDING AGE',
+        'Housing Type': 'BUILDING_SUBTYPE',
+        'Number Of Stories': 'AVERAGE STORIES',
+        'Community': 'COMMUNITY AREA NAME',
+        'Home Square Footage': 'KWH TOTAL SQFT',
+        'Household Size': 'AVERAGE HOUSESIZE'
+    }
+
+    for col_df, col_df2 in column_mapping.items():
+        df2[col_df2] = df[col_df]
+
+    df2['THERMS TOTAL SQFT'] = df2['KWH TOTAL SQFT']
+    commute_type = df['Commute Type'][0] 
+    column_name = commute_mapping.get(commute_type)
+    df2[column_name] = 100.0
+    heat_type = df['Heating'][0]
+    column_name = heating_mapping.get(heat_type)
+    df2[column_name] = 100.0
+
+    columns_to_fill = df2.columns.difference(['Month'])
+    df2[columns_to_fill] = df2[columns_to_fill].fillna(value=0)
+    df2 = pd.concat([df2] * 12, ignore_index=True)
+    df2['Month'] = months
+    df2['Month'] = df2['Month'].str.upper() 
+    
+    df_kwh = df2[kwh_cols]
+    df_therm = df2[therm_cols]
+    
+    cols_to_map = ['BUILDING_SUBTYPE','COMMUNITY AREA NAME','Month']
+    for col in cols_to_map:
+        if col in df_kwh.columns:
+            df_kwh[col] = df_kwh[col].map(kwh_mapping[col])
+        if col in df_therm.columns:
+            df_therm[col] = df_therm[col].map(therm_mapping[col])
+
+    return df_kwh, df_therm
 
 @app.route('/')
 def index():
-    # Shared features between KWH and Thermal
-    # Shared features between KWH and Thermal
-    shared_features = ['Household Size','Adults In Household','Commute Type','Annual Household Income', 'Housing Type', 'Home Square Footage', 'Building Age (Years)', 'Number Of Stories', 'Heating', 'Community']
-    # Unique features for KWH and Thermal
-    unique_features_kwh = []  # Add any unique features for KWH here
-    unique_features_thermal = []  # Add any unique features for Thermal here
-    # Combine shared and unique features for KWH and Thermal
-    features_kwh = shared_features + unique_features_kwh
-    features_thermal = shared_features + unique_features_thermal
-    # Remove duplicates and pass to the template
-    all_features = list(dict.fromkeys(features_kwh + features_thermal))
+    all_features = shared_features  # Use shared features for the form
     return render_template('index.html', features=all_features)
 
-
-# In[443]:
-
-
-#Data For Testing
-data = [
-    {
-        'Household Size': 4,
-        'Adults In Household': 2,
-        'Commute Type': 1,
-        'Annual Household Income': 75000,
-        'Housing Type': 1,  # Assume 1 corresponds to 'Single Family Home'
-        'Home Square Footage': 1500,
-        'Building Age (Years)': 20,
-        'Number Of Stories': 2,
-        'Heating': 2,  # Assume 1 corresponds to 'Electricity'
-        'Community': 1  # Assume 1 corresponds to 'Albany Park'
-    }
-]
-shared_features = ['Household Size','Adults In Household','Commute Type','Annual Household Income', 'Housing Type', 'Home Square Footage', 'Building Age (Years)', 'Number Of Stories', 'Heating', 'Community']
-df = pd.DataFrame(data, columns=shared_features)
-df['Percent!!SEX AND AGE!!21 years and over'] = df['Adults In Household']/df['Household Size']*100
-df['Housing Type'] = df['Housing Type'].map(housing_type_mapping)
-df['Community'] = df['Community'].map(community_mapping)
-
-
-# In[445]:
-
-
-combined_cols = list(set(kwh_cols + therm_cols))
-df2 = pd.DataFrame(columns=combined_cols)
-
-
-# In[449]:
-
-
-column_mapping = {
-    'Percent!!SEX AND AGE!!21 years and over': 'Percent!!SEX AND AGE!!21 years and over',
-    'Annual Household Income': 'Estimate!!INCOME AND BENEFITS (IN 2010 INFLATION-ADJUSTED DOLLARS)!!Median household income (dollars)',
-    'Building Age (Years)': 'AVERAGE BUILDING AGE',
-    'Housing Type': 'BUILDING_SUBTYPE',
-    'Number Of Stories': 'AVERAGE STORIES',
-    'Community': 'COMMUNITY AREA NAME',
-    'Home Square Footage':'KWH TOTAL SQFT',
-    'Household Size': 'AVERAGE HOUSESIZE'
-}
-for col_df, col_df2 in column_mapping.items():
-    df2[col_df2] = df[col_df]
-    
-df2['THERMS TOTAL SQFT']= df2['KWH TOTAL SQFT']
-commute_type = df['Commute Type'][0]
-column_name = commute_mapping.get(commute_type)
-df2[column_name] = 100.0
-heat_type = df['Heating'][0]
-column_name = heating_mapping.get(heat_type)
-df2[column_name] = 100.0
-
-columns_to_fill = df2.columns.difference(['Month'])
-df2[columns_to_fill] = df2[columns_to_fill].fillna(value=0)
-df2 = pd.concat([df2] * 12, ignore_index=True)
-
-months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-df2['Month'] = months
-df2['Month'] = df2['Month'].str.upper()
-
-
-# In[453]:
-
-
-df_kwh = df2[kwh_cols]
-df_therm = df2[therm_cols]
-
-
-# In[457]:
-
-
-cols_to_map = ['BUILDING_SUBTYPE','COMMUNITY AREA NAME','Month']
-for col in cols_to_map:
-    if col in df_kwh.columns:
-        df_kwh[col] = df_kwh[col].map(kwh_mapping[col])
-    if col in df_therm.columns:
-        df_therm[col] = df_therm[col].map(therm_mapping[col])
-
-
-# In[463]:
-
-
-prediction_kwh = model_kwh.predict(df_kwh)
-
-
-# In[471]:
-
-
-prediction_therm = model_thermal.predict(df_therm)
-
-
-# In[477]:
-
-
-pred_df = pd.DataFrame({
-    'Month': months,
-    'KWH': prediction_kwh,
-    'THERM': prediction_therm
-})
-pred_df.loc[pred_df['THERM'] < 0, 'THERM'] = 0
-
-
-# In[513]:
-
-
-pred_df['Month'] = pd.Categorical(pred_df['Month'], categories=months, ordered=True)
-
-# Sort DataFrame by 'Month' column
-pred_df_sorted = pred_df.sort_values(by='Month')
-
-# Plot lines
-plt.figure(figsize=(12, 6))
-sns.lineplot(data=pred_df_sorted, x='Month', y='KWH', label='KWH')
-sns.lineplot(data=pred_df_sorted, x='Month', y='THERM', label='THERM')
-plt.xticks(rotation=45)
-plt.xlabel('')
-plt.ylabel('Units of Energy')
-plt.title('Predicted Household Energy Consumption By Month')
-plt.legend()
-
-# Remove x-axis ticks and labels
-plt.tick_params(axis='x', bottom=False)
-plt.xticks([])  # Remove x-axis tick labels
-
-# Create a table with rounded values
-table_data = pred_df_sorted[['KWH', 'THERM']].round(2).values.T
-row_labels = ['KWH', 'THERM']
-col_labels = pred_df_sorted['Month'].unique()
-table = plt.table(cellText=table_data,
-                  rowLabels=row_labels,
-                  colLabels=col_labels,
-                  loc='bottom')
-
-# Adjust table layout
-table.auto_set_font_size(False)
-table.set_fontsize(10)
-table.scale(1, 1.5)
-
-plt.show()
-
-
-# In[ ]:
-
+@app.route('/map_input', methods=['POST'])
+def map_input():
+    form_data = request.form
+    df_kwh, df_therm = map_input_data(form_data)
+    return jsonify({'df_kwh': df_kwh.to_dict(), 'df_therm': df_therm.to_dict()})
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = request.form.to_dict()
-    numeric_data = {}
-    for key in data.keys():
-        try:
-            numeric_data[key] = float(data[key])
-        except ValueError:
-            return jsonify({'error': f'Invalid input for {key}, please enter numeric values.'})
+    data = request.form.to_dict() 
+    # Save dictionary to a JSON file
+    for key in data:
+        data[key] = int(data[key])   
+        
+    with open('my_dict.json', 'w') as file:
+        json.dump(data, file)     
+        
+    df = [data]
+    df_kwh, df_therm = map_input_data(df)
 
-    df = pd.DataFrame([numeric_data])
-    # Predict KWH and Thermal
-    prediction_kwh = model_kwh.predict(df_kwh)
-    prediction_therm = model_thermal.predict(df_therm)
+    # Ensure all columns are of compatible types
+    #df_kwh = df_kwh.apply(pd.to_numeric, errors='ignore')
+    #df_therm = df_therm.apply(pd.to_numeric, errors='ignore')
 
-    # Return predictions as JSON
-    return jsonify({'prediction_kwh': prediction_kwh, 'prediction_thermal': prediction_thermal})
+    kwh_predictions = model_kwh.predict(df_kwh)
+    therm_predictions = model_thermal.predict(df_therm)
+
+    # Convert predictions to a DataFrame
+    pred_df = pd.DataFrame({
+        'Month': months,
+        'KWH': kwh_predictions.flatten(),
+        'THERM': therm_predictions.flatten()
+    })
+    pred_df.loc[pred_df['THERM'] < 0, 'THERM'] = 0
+
+    pred_df = pred_df.melt(id_vars='Month',value_vars=['KWH','THERM'],var_name='Unit') 
+    
+    pred_df.to_csv('final.csv')
+    # Create a Plotly figure 
+    
+    fig = px.line(pred_df, x='Month', y='value',color='Unit')
+    fig.show()
+
+    # Encode Plotly JSON to be rendered in the frontend
+    graphJSON = json.dumps(fig, cls=PlotlyJSONEncoder)
+
+    # Return the Plotly JSON to the frontend
+    return jsonify({'plotly': graphJSON})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
