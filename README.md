@@ -1,4 +1,27 @@
-us tract level, which may lack the granularity needed for block-level analysis.
+# Predictive Analysis of Urban Energy Consumption
+
+In today's rapidly urbanizing world, efficient energy management is critical for sustainable development and economic growth. Urban areas, which house the majority of the global population, account for over 70% of global energy consumption and significantly contribute to greenhouse gas emissions. As urban populations grow, the demand for energy rises, putting pressure on existing infrastructure and underscoring the need for sustainable energy solutions.
+
+## Project Overview
+
+Our project, "Predictive Analysis of Urban Energy Consumption," aims to address these challenges by leveraging data science techniques to understand energy consumption patterns in urban centers better. By analyzing historical data and developing predictive models, we provide actionable insights to optimize energy use, reduce costs, and mitigate environmental impacts. 
+
+### Objectives
+
+The primary objectives of our project are as follows:
+
+1. **Analyze Historical Data:** Explore historical urban energy consumption data to identify trends and patterns.
+2. **Identify Key Factors:** Determine the factors influencing energy use in urban areas.
+3. **Develop Predictive Models:** Build accurate models to forecast energy consumption.
+4. **User-Friendly Web Application:** Create a user-friendly web application for local Chicago residents to forecast their energy consumption over a 12-month period.
+
+### Datasets
+
+We utilize the following datasets for our analysis:
+
+1. **American Community Survey Data (acs_energy.csv):**
+   - Provides extensive demographic, socioeconomic, and housing data.
+   - Data available down to census tract level, which may lack the granularity needed for block-level analysis.
    - Misalignment in data granularity and frequency can lead to imprecise modeling of energy demand based on demographic factors.
 
 2. **City of Chicago Energy Usage 2010 (columns2010v3.csv):**
